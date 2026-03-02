@@ -4,8 +4,8 @@ import { Award, Heart, Users, Target, CheckCircle2, Shield, Sparkles } from 'luc
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us - DentalCare',
-  description: 'Learn about our experienced team, modern facilities, and commitment to providing exceptional dental care with a personal touch.',
+  title: 'About Us - Vakharia Multispeciality Dental Clinic',
+  description: 'With 55+ years of legacy in Ahmedabad, Vakharia Multispeciality Dental Clinic provides ethical, affordable, and excellent dental care built on trust and clinical excellence.',
 };
 
 export default function AboutUs() {
@@ -15,10 +15,10 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              About DentalCare
+              Welcome to Vakharia Multispeciality Dental Clinic
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Where advanced dentistry meets compassionate care to create beautiful, healthy smiles that last a lifetime.
+              With a legacy of over 55+ years, we have been a trusted name in dental care in Ahmedabad, built on a strong foundation of ethical practice, affordability, and clinical excellence.
             </p>
           </div>
         </div>
@@ -29,22 +29,22 @@ export default function AboutUs() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Our Story
+                Our Legacy
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Founded over 15 years ago, DentalCare has grown from a small practice to a comprehensive dental healthcare center, serving thousands of satisfied patients. Our journey has always been guided by one simple principle: putting our patients first.
+                The clinic was originally established by Dr. Deepak Vakharia, whose vision was to provide honest dental care focused on patient well-being rather than unnecessary treatments. Under his guidance, the clinic earned the trust of generations of families.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We believe that quality dental care should be accessible, comfortable, and tailored to each individual. That's why we've invested in the latest technology, continued education, and creating a warm, welcoming environment where you can feel at ease.
+                Today, the practice is led by Dr. Deepak M. Vakharia, Dental Surgeon, and Dr. Palak D. Vakharia, Dental Surgeon (Graduate – 2002), supported by a team of multispecialist dental experts. We offer comprehensive dental treatments under one roof.
               </p>
               <div className="grid grid-cols-2 gap-6 pt-4">
                 <div>
-                  <div className="text-4xl font-bold text-dental-teal mb-2">15+</div>
+                  <div className="text-4xl font-bold text-dental-teal mb-2">55+</div>
                   <p className="text-muted-foreground">Years of Excellence</p>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-dental-teal mb-2">5000+</div>
-                  <p className="text-muted-foreground">Happy Patients</p>
+                  <div className="text-4xl font-bold text-dental-teal mb-2">1000s</div>
+                  <p className="text-muted-foreground">Successful Treatments</p>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function AboutUs() {
                 <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="w-16 h-16 text-dental-teal" />
                 </div>
-                <p className="text-xl font-semibold text-foreground">Caring for Smiles Since 2009</p>
+                <p className="text-xl font-semibold text-foreground">Caring for Generations of Families</p>
               </div>
             </div>
           </div>
@@ -65,35 +65,71 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Our Mission & Vision
+              Our Journey
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Guided by our core values, we strive to make a positive impact on every smile we treat.
+              A timeline of growth, trust, and commitment to excellence in dental care.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="border-none shadow-lg bg-white">
-              <CardContent className="p-8">
-                <div className="w-14 h-14 bg-dental-blue-light rounded-full flex items-center justify-center mb-4">
-                  <Target className="w-7 h-7 text-dental-teal" />
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Award className="w-8 h-8 text-dental-teal" />
                 </div>
-                <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  To provide exceptional dental care that combines advanced technology, clinical expertise, and genuine compassion. We are committed to improving oral health, restoring confidence, and creating beautiful smiles that enhance the quality of life for every patient we serve.
-                </p>
+                <h3 className="text-xl font-semibold mb-2">55+ Years</h3>
+                <p className="text-muted-foreground">Clinical excellence</p>
               </CardContent>
             </Card>
 
             <Card className="border-none shadow-lg bg-white">
-              <CardContent className="p-8">
-                <div className="w-14 h-14 bg-dental-blue-light rounded-full flex items-center justify-center mb-4">
-                  <Award className="w-7 h-7 text-dental-teal" />
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="w-8 h-8 text-dental-teal" />
                 </div>
-                <h3 className="text-2xl font-semibold mb-4">Our Vision</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  To be the most trusted dental care provider in our community, setting the standard for excellence in patient care, innovation, and professional integrity. We envision a future where everyone has access to world-class dental treatment in a comfortable, welcoming environment.
-                </p>
+                <h3 className="text-xl font-semibold mb-2">Clinic 1</h3>
+                <p className="text-muted-foreground">Established in Maninagar</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Clinic 2</h3>
+                <p className="text-muted-foreground">Serving Paldi for 25+ years</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle2 className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Thousands</h3>
+                <p className="text-muted-foreground">Successful treatments</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Generations</h3>
+                <p className="text-muted-foreground">Family patients</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Target className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Multispecialty</h3>
+                <p className="text-muted-foreground">Expert team</p>
               </CardContent>
             </Card>
           </div>
@@ -104,104 +140,133 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Patients Choose Us
+              Meet Our Doctors
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We're more than just a dental clinic. We're your partners in achieving optimal oral health.
+              Experienced professionals dedicated to your dental health and well-being.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                icon: Users,
-                title: 'Experienced Team',
-                description: 'Our dentists have decades of combined experience and stay current with the latest advancements in dental care.',
-              },
-              {
-                icon: Award,
-                title: 'Advanced Technology',
-                description: 'We use state-of-the-art equipment and techniques to ensure precise, comfortable, and effective treatments.',
-              },
-              {
-                icon: Heart,
-                title: 'Patient-Centered Approach',
-                description: 'We listen to your concerns, explain all options, and work with you to create a personalized treatment plan.',
-              },
-              {
-                icon: CheckCircle2,
-                title: 'Comprehensive Care',
-                description: 'From preventive care to complex procedures, we offer a full range of services under one roof.',
-              },
-              {
-                icon: Shield,
-                title: 'Safety & Hygiene',
-                description: 'We maintain the highest standards of sterilization and infection control to keep you safe.',
-              },
-              {
-                icon: Sparkles,
-                title: 'Comfortable Environment',
-                description: 'Our modern, welcoming facilities are designed to make your visit as pleasant as possible.',
-              },
-            ].map((feature, index) => (
-              <Card key={index} className="border-none shadow-md bg-white group hover:shadow-xl transition-shadow">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-dental-blue-light rounded-full flex items-center justify-center mb-4 group-hover:bg-dental-teal transition-colors">
-                    <feature.icon className="w-6 h-6 text-dental-teal group-hover:text-white transition-colors" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
-                </CardContent>
-              </Card>
-            ))}
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8 text-center">
+                <div className="w-24 h-24 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-12 h-12 text-dental-teal" />
+                </div>
+                <h3 className="text-2xl font-semibold mb-2">Dr. Deepak M. Vakharia</h3>
+                <p className="text-dental-teal font-medium mb-4">Dental Surgeon</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Leading the practice with decades of experience and a commitment to ethical dental care.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8 text-center">
+                <div className="w-24 h-24 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-12 h-12 text-dental-teal" />
+                </div>
+                <h3 className="text-2xl font-semibold mb-2">Dr. Palak D. Vakharia</h3>
+                <p className="text-dental-teal font-medium mb-4">Dental Surgeon (Graduate – 2002)</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Bringing modern expertise and compassionate care to continue our family legacy.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-dental-blue-light to-white">
+      <section className="py-20 bg-dental-gray-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Our Commitment to You
+              Our Philosophy
             </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              The core values that guide every treatment and patient interaction.
+            </p>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-6">
-            {[
-              {
-                title: 'Transparent Communication',
-                description: 'We explain every procedure in detail and answer all your questions before any treatment begins.',
-              },
-              {
-                title: 'Personalized Treatment Plans',
-                description: 'No two smiles are alike. We create customized treatment plans that address your unique needs and goals.',
-              },
-              {
-                title: 'Comfortable Experience',
-                description: 'From our friendly staff to our modern amenities, we ensure every visit is as comfortable as possible.',
-              },
-              {
-                title: 'Ongoing Support',
-                description: 'Our relationship doesn\'t end when you leave the chair. We provide continuous care and support for your oral health journey.',
-              },
-            ].map((commitment, index) => (
-              <div key={index} className="flex gap-4 bg-white p-6 rounded-xl shadow-md">
-                <div className="flex-shrink-0">
-                  <CheckCircle2 className="w-6 h-6 text-dental-teal mt-1" />
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8">
+                <div className="w-14 h-14 bg-dental-blue-light rounded-full flex items-center justify-center mb-4">
+                  <CheckCircle2 className="w-7 h-7 text-dental-teal" />
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">{commitment.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{commitment.description}</p>
+                <h3 className="text-xl font-semibold mb-3">Ethical Treatment Planning</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  We prioritize your well-being over unnecessary treatments, providing honest recommendations you can trust.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8">
+                <div className="w-14 h-14 bg-dental-blue-light rounded-full flex items-center justify-center mb-4">
+                  <Heart className="w-7 h-7 text-dental-teal" />
                 </div>
-              </div>
-            ))}
+                <h3 className="text-xl font-semibold mb-3">Affordable Pricing</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Quality dental care should be accessible to all. We offer competitive pricing without compromising excellence.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8">
+                <div className="w-14 h-14 bg-dental-blue-light rounded-full flex items-center justify-center mb-4">
+                  <Users className="w-7 h-7 text-dental-teal" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Specialist Consultation</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Access to multispecialist dental experts ensures you receive the best care for every dental need.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8">
+                <div className="w-14 h-14 bg-dental-blue-light rounded-full flex items-center justify-center mb-4">
+                  <Sparkles className="w-7 h-7 text-dental-teal" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Modern Technology</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  We utilize advanced equipment and techniques to provide precise, comfortable, and effective treatments.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8">
+                <div className="w-14 h-14 bg-dental-blue-light rounded-full flex items-center justify-center mb-4">
+                  <Heart className="w-7 h-7 text-dental-teal" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Patient Comfort Focus</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Your comfort and peace of mind are paramount in every appointment and procedure.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8">
+                <div className="w-14 h-14 bg-dental-blue-light rounded-full flex items-center justify-center mb-4">
+                  <Shield className="w-7 h-7 text-dental-teal" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Clinical Excellence</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Maintaining the highest standards of care through continuous learning and best practices.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
       <CTASection
-        title="Experience the DentalCare Difference"
-        description="Join thousands of satisfied patients who trust us with their smiles. Schedule your appointment today."
+        title="Experience the Vakharia Difference"
+        description="Join generations of families who trust us with their smiles. Schedule your appointment today and become part of our 55+ year legacy."
       />
     </div>
   );
