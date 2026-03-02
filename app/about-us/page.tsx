@@ -11,8 +11,16 @@ export const metadata: Metadata = {
 export default function AboutUs() {
   return (
     <div className="min-h-screen">
-      <section className="relative bg-gradient-to-br from-dental-blue-light via-white to-dental-gray-light py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-gradient-to-br from-dental-blue-light via-white to-dental-gray-light py-20 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <img
+            src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Modern dental clinic"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-br from-dental-blue-light/90 via-white/95 to-dental-gray-light/90"></div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Welcome to Vakharia Multispeciality Dental Clinic
