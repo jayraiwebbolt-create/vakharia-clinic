@@ -23,7 +23,6 @@ const treatments = [
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isTreatmentsOpen, setIsTreatmentsOpen] = useState(false);
   const [isMobileTreatmentsOpen, setIsMobileTreatmentsOpen] = useState(false);
 
   useEffect(() => {
@@ -57,37 +56,31 @@ export default function Navbar() {
               About Us
             </Link>
 
-            <div
-              className="relative"
-              onMouseEnter={() => setIsTreatmentsOpen(true)}
-              onMouseLeave={() => setIsTreatmentsOpen(false)}
-            >
+            <div className="relative group">
               <button className="flex items-center text-foreground hover:text-dental-teal transition-colors font-medium">
                 Treatments
-                <ChevronDown className={`w-4 h-4 ml-1 transition-transform ${isTreatmentsOpen ? 'rotate-180' : ''}`} />
+                <ChevronDown className="w-4 h-4 ml-1 transition-transform group-hover:rotate-180" />
               </button>
 
-              {isTreatmentsOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2">
-                  <Link
-                    href="/treatments"
-                    className="block px-4 py-2 text-sm text-foreground hover:bg-dental-blue-light hover:text-dental-teal transition-colors font-semibold border-b"
-                  >
-                    All Treatments
-                  </Link>
-                  <div className="max-h-96 overflow-y-auto">
-                    {treatments.map((treatment) => (
-                      <Link
-                        key={treatment.slug}
-                        href={`/treatments/${treatment.slug}`}
-                        className="block px-4 py-2 text-sm text-foreground hover:bg-dental-blue-light hover:text-dental-teal transition-colors"
-                      >
-                        {treatment.label}
-                      </Link>
-                    ))}
-                  </div>
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <Link
+                  href="/treatments"
+                  className="block px-4 py-2 text-sm text-foreground hover:bg-dental-blue-light hover:text-dental-teal transition-colors font-semibold border-b"
+                >
+                  All Treatments
+                </Link>
+                <div className="max-h-96 overflow-y-auto">
+                  {treatments.map((treatment) => (
+                    <Link
+                      key={treatment.slug}
+                      href={`/treatments/${treatment.slug}`}
+                      className="block px-4 py-2 text-sm text-foreground hover:bg-dental-blue-light hover:text-dental-teal transition-colors"
+                    >
+                      {treatment.label}
+                    </Link>
+                  ))}
                 </div>
-              )}
+              </div>
             </div>
 
             <Link href="/contact-us" className="text-foreground hover:text-dental-teal transition-colors font-medium">

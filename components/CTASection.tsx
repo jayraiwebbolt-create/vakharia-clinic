@@ -29,8 +29,8 @@ export default function CTASection({
             </Button>
           </Link>
           {showPhoneButton && (
-            <a href="tel:+1234567890">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8">
+            <a href="tel:+916352104371">
+              <Button size="lg" className="bg-white text-dental-teal hover:bg-slate-50 px-8">
                 <Phone className="w-4 h-4 mr-2" />
                 Call Us Now
               </Button>

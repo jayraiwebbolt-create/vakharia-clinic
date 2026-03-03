@@ -48,16 +48,16 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-3 gap-6 pt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-dental-teal mb-1">15+</div>
+                  <div className="text-3xl font-bold text-dental-teal mb-1">55+</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center border-x">
-                  <div className="text-3xl font-bold text-dental-teal mb-1">5000+</div>
+                  <div className="text-3xl font-bold text-dental-teal mb-1">10000+</div>
                   <div className="text-sm text-muted-foreground">Happy Patients</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-dental-teal mb-1">98%</div>
-                  <div className="text-sm text-muted-foreground">Success Rate</div>
+                  <div className="text-3xl font-bold text-dental-teal mb-1">2</div>
+                  <div className="text-sm text-muted-foreground">Clinic Locations</div>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose DentalCare
+              Why Choose Vakharia Dental
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               We combine expertise, technology, and genuine care to deliver exceptional results.
@@ -276,22 +276,22 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: 'Sarah Johnson',
+                name: 'Priya Sharma',
                 treatment: 'Dental Implants',
                 rating: 5,
-                text: 'The team at DentalCare transformed my smile with dental implants. The process was smooth, painless, and the results exceeded my expectations. I can smile confidently again!',
+                text: 'The team at Vakharia Dental transformed my smile with dental implants. The process was smooth, painless, and the results exceeded my expectations. I can smile confidently again!',
               },
               {
-                name: 'Michael Chen',
+                name: 'Rahul Patel',
                 treatment: 'Invisalign',
                 rating: 5,
                 text: 'I never thought I could straighten my teeth without braces. Invisalign was perfect for my lifestyle, and the staff made every visit comfortable and informative.',
               },
               {
-                name: 'Emily Rodriguez',
+                name: 'Anjali Desai',
                 treatment: 'Teeth Whitening',
                 rating: 5,
-                text: 'Professional, caring, and the results are amazing! My teeth are several shades whiter and I received so many compliments. Highly recommend DentalCare!',
+                text: 'Professional, caring, and the results are amazing! My teeth are several shades whiter and I received so many compliments. Highly recommend Vakharia Dental!',
               },
             ].map((testimonial, index) => (
               <Card key={index} className="border-none shadow-lg bg-white">

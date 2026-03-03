@@ -97,20 +97,35 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-slate-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Vakharia Multispeciality Dental Clinic. All rights reserved.
-          </p>
-          <div className="flex space-x-4">
-            <a href="#" className="text-slate-400 hover:text-dental-teal transition-colors">
-              <Facebook className="w-5 h-5" />
-            </a>
-            <a href="#" className="text-slate-400 hover:text-dental-teal transition-colors">
-              <Instagram className="w-5 h-5" />
-            </a>
-            <a href="#" className="text-slate-400 hover:text-dental-teal transition-colors">
-              <Twitter className="w-5 h-5" />
-            </a>
+        <div className="border-t border-slate-800 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center mb-4">
+            <p className="text-slate-400 text-sm mb-4 md:mb-0">
+              © {new Date().getFullYear()} Vakharia Multispeciality Dental Clinic. All rights reserved.
+            </p>
+            <div className="flex space-x-4">
+              <a href="#" className="text-slate-400 hover:text-dental-teal transition-colors">
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-slate-400 hover:text-dental-teal transition-colors">
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-slate-400 hover:text-dental-teal transition-colors">
+                <Twitter className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+          <div className="text-center pt-4 border-t border-slate-800">
+            <p className="text-slate-400 text-sm">
+              Developed by{' '}
+              <a
+                href="https://www.aayushbajpai.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-dental-teal hover:text-dental-teal-light transition-colors font-medium"
+              >
+                Aayush Bajpai
+              </a>
+            </p>
           </div>
         </div>
       </div>

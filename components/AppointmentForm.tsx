@@ -36,7 +36,11 @@ export default function AppointmentForm() {
 
       if (error) throw error;
 
-      setSubmitMessage('Appointment request submitted successfully! We will contact you soon.');
+      const whatsappMessage = `Hi, I would like to book an appointment.%0A%0AName: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0APreferred Date: ${formData.date}%0APreferred Time: ${formData.time}%0AMessage: ${formData.message || 'None'}`;
+
+      window.open(`https://wa.me/916352104371?text=${whatsappMessage}`, '_blank');
+
+      setSubmitMessage('Redirecting to WhatsApp...');
       setFormData({
         name: '',
         email: '',
@@ -74,7 +78,7 @@ export default function AppointmentForm() {
               value={formData.name}
               onChange={handleChange}
               required
-              placeholder="John Doe"
+              placeholder="Rajesh Kumar"
               className="mt-1"
             />
           </div>
@@ -88,7 +92,7 @@ export default function AppointmentForm() {
               value={formData.email}
               onChange={handleChange}
               required
-              placeholder="john@example.com"
+              placeholder="rajesh@example.com"
               className="mt-1"
             />
           </div>
@@ -102,7 +106,7 @@ export default function AppointmentForm() {
               value={formData.phone}
               onChange={handleChange}
               required
-              placeholder="(123) 456-7890"
+              placeholder="+91 98765 43210"
               className="mt-1"
             />
           </div>
