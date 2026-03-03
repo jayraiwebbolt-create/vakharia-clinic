@@ -1,11 +1,11 @@
 import { Card, CardContent } from '@/components/ui/card';
 import AppointmentForm from '@/components/AppointmentForm';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Building2 } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - DentalCare',
-  description: 'Get in touch with DentalCare. Schedule an appointment, ask questions, or visit our clinic. We are here to help you achieve your best smile.',
+  title: 'Contact Us - Vakharia Multispeciality Dental Clinic',
+  description: 'Visit us at our Maninagar or Paldi clinics in Ahmedabad. Schedule an appointment and experience over 55 years of trusted dental care.',
 };
 
 export default function ContactUs() {
@@ -18,7 +18,7 @@ export default function ContactUs() {
               Contact Us
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We're here to answer your questions and help you schedule your appointment. Reach out today and take the first step towards a healthier smile.
+              Visit us at either of our two convenient locations in Ahmedabad. Our experienced team is ready to serve you with 55+ years of trusted dental care.
             </p>
           </div>
         </div>
@@ -27,78 +27,96 @@ export default function ContactUs() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
-            <div>
-              <h2 className="text-3xl font-bold text-foreground mb-8">Get In Touch</h2>
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-3xl font-bold text-foreground mb-8">Our Clinics</h2>
 
-              <div className="space-y-6">
-                <Card className="border-none shadow-md bg-white">
-                  <CardContent className="p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-dental-blue-light rounded-full flex items-center justify-center flex-shrink-0">
-                        <MapPin className="w-6 h-6 text-dental-teal" />
+                <Card className="border-none shadow-xl bg-gradient-to-br from-white to-dental-blue-light mb-8">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4 mb-6">
+                      <div className="w-12 h-12 bg-dental-teal rounded-full flex items-center justify-center flex-shrink-0">
+                        <Building2 className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-lg text-foreground mb-2">Visit Us</h3>
-                        <p className="text-muted-foreground leading-relaxed">
-                          123 Dental Street<br />
-                          Medical District<br />
-                          City, State 12345
-                        </p>
+                        <h3 className="font-bold text-2xl text-foreground mb-2">Clinic 1 – Maninagar</h3>
+                        <p className="text-dental-teal font-semibold">Established Clinic</p>
+                      </div>
+                    </div>
+
+                    <div className="space-y-4">
+                      <div className="flex items-start gap-3">
+                        <Phone className="w-5 h-5 text-dental-teal flex-shrink-0 mt-1" />
+                        <div>
+                          <a
+                            href="tel:07925326716"
+                            className="text-foreground hover:text-dental-teal transition-colors font-medium block"
+                          >
+                            079 2532 6716
+                          </a>
+                          <a
+                            href="tel:+916352104371"
+                            className="text-foreground hover:text-dental-teal transition-colors font-medium block"
+                          >
+                            +91 63521 04371
+                          </a>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-3">
+                        <MapPin className="w-5 h-5 text-dental-teal flex-shrink-0 mt-1" />
+                        <div className="text-muted-foreground leading-relaxed">
+                          <p className="font-semibold text-foreground mb-1">Vakharia Multispeciality Dental Clinic</p>
+                          <p>307, Third Floor, Sarovar Platinum</p>
+                          <p>Opp. Madhyam Varg Society</p>
+                          <p>Kankaria Road, Maninagar</p>
+                          <p>Ahmedabad – 380022</p>
+                          <p>Gujarat, India</p>
+                        </div>
                       </div>
                     </div>
                   </CardContent>
                 </Card>
 
-                <Card className="border-none shadow-md bg-white">
-                  <CardContent className="p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-dental-blue-light rounded-full flex items-center justify-center flex-shrink-0">
-                        <Phone className="w-6 h-6 text-dental-teal" />
+                <Card className="border-none shadow-xl bg-gradient-to-br from-white to-dental-blue-light">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4 mb-6">
+                      <div className="w-12 h-12 bg-dental-teal rounded-full flex items-center justify-center flex-shrink-0">
+                        <Building2 className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-lg text-foreground mb-2">Call Us</h3>
-                        <a
-                          href="tel:+1234567890"
-                          className="text-dental-teal hover:text-dental-teal-dark transition-colors text-lg"
-                        >
-                          (123) 456-7890
-                        </a>
+                        <h3 className="font-bold text-2xl text-foreground mb-2">Clinic 2 – Paldi</h3>
+                        <p className="text-dental-teal font-semibold">Serving for 25+ Years</p>
                       </div>
                     </div>
-                  </CardContent>
-                </Card>
 
-                <Card className="border-none shadow-md bg-white">
-                  <CardContent className="p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-dental-blue-light rounded-full flex items-center justify-center flex-shrink-0">
-                        <Mail className="w-6 h-6 text-dental-teal" />
+                    <div className="space-y-4">
+                      <div className="flex items-start gap-3">
+                        <Phone className="w-5 h-5 text-dental-teal flex-shrink-0 mt-1" />
+                        <div>
+                          <a
+                            href="tel:07926609368"
+                            className="text-foreground hover:text-dental-teal transition-colors font-medium block"
+                          >
+                            079 2660 9368
+                          </a>
+                          <a
+                            href="tel:+916320048376"
+                            className="text-foreground hover:text-dental-teal transition-colors font-medium block"
+                          >
+                            +91 63200 48376
+                          </a>
+                        </div>
                       </div>
-                      <div>
-                        <h3 className="font-semibold text-lg text-foreground mb-2">Email Us</h3>
-                        <a
-                          href="mailto:info@dentalcare.com"
-                          className="text-dental-teal hover:text-dental-teal-dark transition-colors"
-                        >
-                          info@dentalcare.com
-                        </a>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
 
-                <Card className="border-none shadow-md bg-white">
-                  <CardContent className="p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-dental-blue-light rounded-full flex items-center justify-center flex-shrink-0">
-                        <Clock className="w-6 h-6 text-dental-teal" />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-lg text-foreground mb-2">Office Hours</h3>
-                        <div className="text-muted-foreground space-y-1">
-                          <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                          <p>Saturday: 9:00 AM - 2:00 PM</p>
-                          <p>Sunday: Closed</p>
+                      <div className="flex items-start gap-3">
+                        <MapPin className="w-5 h-5 text-dental-teal flex-shrink-0 mt-1" />
+                        <div className="text-muted-foreground leading-relaxed">
+                          <p className="font-semibold text-foreground mb-1">Vakharia Multispeciality Dental Clinic</p>
+                          <p>Anisha Complex</p>
+                          <p>New Vikas Gruh Road</p>
+                          <p>Paldi</p>
+                          <p>Ahmedabad – 380007</p>
+                          <p>Gujarat, India</p>
                         </div>
                       </div>
                     </div>
@@ -116,40 +134,77 @@ export default function ContactUs() {
 
       <section className="py-20 bg-dental-gray-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Find Us</h2>
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden h-96">
-            <div className="w-full h-full bg-gradient-to-br from-dental-blue-light to-dental-gray-light flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-16 h-16 text-dental-teal mx-auto mb-4" />
-                <p className="text-xl font-semibold text-foreground">Map Location</p>
-                <p className="text-muted-foreground mt-2">123 Dental Street, Medical District</p>
+          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Visit Either Location</h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="border-none shadow-lg bg-white overflow-hidden">
+              <div className="h-64 bg-gradient-to-br from-dental-blue-light to-dental-gray-light flex items-center justify-center">
+                <div className="text-center">
+                  <MapPin className="w-16 h-16 text-dental-teal mx-auto mb-4" />
+                  <p className="text-xl font-semibold text-foreground">Maninagar Clinic</p>
+                  <p className="text-muted-foreground mt-2 px-4">Kankaria Road, Maninagar</p>
+                </div>
               </div>
-            </div>
+              <CardContent className="p-6">
+                <div className="flex flex-col gap-2">
+                  <a
+                    href="tel:07925326716"
+                    className="inline-flex items-center justify-center px-6 py-3 bg-dental-teal hover:bg-dental-teal-dark text-white font-semibold rounded-lg transition-colors"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    079 2532 6716
+                  </a>
+                  <a
+                    href="tel:+916352104371"
+                    className="inline-flex items-center justify-center px-6 py-3 border-2 border-dental-teal text-dental-teal hover:bg-dental-blue-light font-semibold rounded-lg transition-colors"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    +91 63521 04371
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white overflow-hidden">
+              <div className="h-64 bg-gradient-to-br from-dental-blue-light to-dental-gray-light flex items-center justify-center">
+                <div className="text-center">
+                  <MapPin className="w-16 h-16 text-dental-teal mx-auto mb-4" />
+                  <p className="text-xl font-semibold text-foreground">Paldi Clinic</p>
+                  <p className="text-muted-foreground mt-2 px-4">New Vikas Gruh Road, Paldi</p>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <div className="flex flex-col gap-2">
+                  <a
+                    href="tel:07926609368"
+                    className="inline-flex items-center justify-center px-6 py-3 bg-dental-teal hover:bg-dental-teal-dark text-white font-semibold rounded-lg transition-colors"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    079 2660 9368
+                  </a>
+                  <a
+                    href="tel:+916320048376"
+                    className="inline-flex items-center justify-center px-6 py-3 border-2 border-dental-teal text-dental-teal hover:bg-dental-blue-light font-semibold rounded-lg transition-colors"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    +91 63200 48376
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-4">Have Questions?</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-4">Ready to Experience Quality Dental Care?</h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            Our friendly team is ready to help. Whether you're a new patient or have been with us for years, we're here to provide the information and care you need.
+            With 55+ years of experience and two convenient locations in Ahmedabad, we're here to serve you with ethical, affordable, and excellent dental care.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+1234567890"
-              className="inline-flex items-center justify-center px-8 py-3 bg-dental-teal hover:bg-dental-teal-dark text-white font-semibold rounded-lg transition-colors"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              Call Now
-            </a>
-            <a
-              href="mailto:info@dentalcare.com"
-              className="inline-flex items-center justify-center px-8 py-3 border-2 border-dental-teal text-dental-teal hover:bg-dental-blue-light font-semibold rounded-lg transition-colors"
-            >
-              <Mail className="w-5 h-5 mr-2" />
-              Send Email
-            </a>
+          <div className="bg-dental-blue-light rounded-xl p-8 inline-block">
+            <p className="text-2xl font-bold text-dental-teal mb-2">Walk-ins Welcome</p>
+            <p className="text-muted-foreground">Or call ahead to schedule your preferred time</p>
           </div>
         </div>
       </section>

@@ -2,12 +2,29 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+
+const treatments = [
+  { slug: 'dental-implants', label: 'Dental Implants' },
+  { slug: 'invisalign', label: 'Invisalign®' },
+  { slug: 'root-canal-treatments', label: 'Root Canal Treatments' },
+  { slug: 'ceramic-crowns-bridges', label: 'Ceramic Crowns & Bridges' },
+  { slug: 'wisdom-tooth-surgery', label: 'Wisdom Tooth Surgery' },
+  { slug: 'gum-surgeries', label: 'Gum Surgeries' },
+  { slug: 'veneers-smile-designing', label: 'Veneers & Smile Designing' },
+  { slug: 'teeth-whitening', label: 'Teeth Whitening' },
+  { slug: 'teeth-cleaning-polishing', label: 'Teeth Cleaning & Polishing' },
+  { slug: 'dental-fillings', label: 'Dental Fillings' },
+  { slug: 'dentures', label: 'Dentures' },
+  { slug: 'night-guard', label: 'Night Guard' },
+];
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isTreatmentsOpen, setIsTreatmentsOpen] = useState(false);
+  const [isMobileTreatmentsOpen, setIsMobileTreatmentsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,13 +33,6 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/about-us', label: 'About Us' },
-    { href: '/treatments', label: 'Treatments' },
-    { href: '/contact-us', label: 'Contact Us' },
-  ];
 
   return (
     <nav
@@ -34,27 +44,61 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-dental-teal rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">D</span>
+              <span className="text-white font-bold text-xl">V</span>
             </div>
-            <span className="text-xl font-bold text-foreground">DentalCare</span>
+            <span className="text-xl font-bold text-foreground">Vakharia Dental</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-foreground hover:text-dental-teal transition-colors font-medium"
-              >
-                {link.label}
-              </Link>
-            ))}
+            <Link href="/" className="text-foreground hover:text-dental-teal transition-colors font-medium">
+              Home
+            </Link>
+            <Link href="/about-us" className="text-foreground hover:text-dental-teal transition-colors font-medium">
+              About Us
+            </Link>
+
+            <div
+              className="relative"
+              onMouseEnter={() => setIsTreatmentsOpen(true)}
+              onMouseLeave={() => setIsTreatmentsOpen(false)}
+            >
+              <button className="flex items-center text-foreground hover:text-dental-teal transition-colors font-medium">
+                Treatments
+                <ChevronDown className={`w-4 h-4 ml-1 transition-transform ${isTreatmentsOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {isTreatmentsOpen && (
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2">
+                  <Link
+                    href="/treatments"
+                    className="block px-4 py-2 text-sm text-foreground hover:bg-dental-blue-light hover:text-dental-teal transition-colors font-semibold border-b"
+                  >
+                    All Treatments
+                  </Link>
+                  <div className="max-h-96 overflow-y-auto">
+                    {treatments.map((treatment) => (
+                      <Link
+                        key={treatment.slug}
+                        href={`/treatments/${treatment.slug}`}
+                        className="block px-4 py-2 text-sm text-foreground hover:bg-dental-blue-light hover:text-dental-teal transition-colors"
+                      >
+                        {treatment.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <Link href="/contact-us" className="text-foreground hover:text-dental-teal transition-colors font-medium">
+              Contact Us
+            </Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <a href="tel:+1234567890" className="flex items-center text-dental-teal">
+            <a href="tel:+916352104371" className="flex items-center text-dental-teal">
               <Phone className="w-4 h-4 mr-2" />
-              <span className="font-semibold">(123) 456-7890</span>
+              <span className="font-semibold">+91 63521 04371</span>
             </a>
             <Link href="/contact-us">
               <Button className="bg-dental-teal hover:bg-dental-teal-dark text-white">
@@ -75,20 +119,65 @@ export default function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="px-4 py-4 space-y-3">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="block py-2 text-foreground hover:text-dental-teal transition-colors font-medium"
-                onClick={() => setIsMobileMenuOpen(false)}
+            <Link
+              href="/"
+              className="block py-2 text-foreground hover:text-dental-teal transition-colors font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Home
+            </Link>
+            <Link
+              href="/about-us"
+              className="block py-2 text-foreground hover:text-dental-teal transition-colors font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              About Us
+            </Link>
+
+            <div>
+              <button
+                onClick={() => setIsMobileTreatmentsOpen(!isMobileTreatmentsOpen)}
+                className="flex items-center justify-between w-full py-2 text-foreground hover:text-dental-teal transition-colors font-medium"
               >
-                {link.label}
-              </Link>
-            ))}
+                Treatments
+                <ChevronDown className={`w-4 h-4 transition-transform ${isMobileTreatmentsOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {isMobileTreatmentsOpen && (
+                <div className="pl-4 mt-2 space-y-2">
+                  <Link
+                    href="/treatments"
+                    className="block py-2 text-sm text-dental-teal font-semibold"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    All Treatments
+                  </Link>
+                  {treatments.map((treatment) => (
+                    <Link
+                      key={treatment.slug}
+                      href={`/treatments/${treatment.slug}`}
+                      className="block py-2 text-sm text-foreground hover:text-dental-teal transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {treatment.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <Link
+              href="/contact-us"
+              className="block py-2 text-foreground hover:text-dental-teal transition-colors font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Contact Us
+            </Link>
+
             <div className="pt-4 border-t">
-              <a href="tel:+1234567890" className="flex items-center text-dental-teal mb-3">
+              <a href="tel:+916352104371" className="flex items-center text-dental-teal mb-3">
                 <Phone className="w-4 h-4 mr-2" />
-                <span className="font-semibold">(123) 456-7890</span>
+                <span className="font-semibold">+91 63521 04371</span>
               </a>
               <Link href="/contact-us" onClick={() => setIsMobileMenuOpen(false)}>
                 <Button className="w-full bg-dental-teal hover:bg-dental-teal-dark text-white">

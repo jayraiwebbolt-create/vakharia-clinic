@@ -9,12 +9,12 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-dental-teal rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">D</span>
+                <span className="text-white font-bold text-xl">V</span>
               </div>
-              <span className="text-xl font-bold">DentalCare</span>
+              <span className="text-xl font-bold">Vakharia Dental</span>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">
-              Providing exceptional dental care with state-of-the-art technology and compassionate service.
+              With 55+ years of legacy, providing ethical, affordable, and excellent dental care in Ahmedabad.
             </p>
           </div>
 
@@ -75,20 +75,22 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-dental-teal flex-shrink-0 mt-0.5" />
-                <span className="text-slate-300 text-sm">
-                  123 Dental Street, Medical District, City, State 12345
-                </span>
+                <div className="text-slate-300 text-sm">
+                  <p className="font-semibold mb-1">Maninagar</p>
+                  <p>Kankaria Road, Ahmedabad</p>
+                </div>
+              </li>
+              <li className="flex items-start space-x-3">
+                <MapPin className="w-5 h-5 text-dental-teal flex-shrink-0 mt-0.5" />
+                <div className="text-slate-300 text-sm">
+                  <p className="font-semibold mb-1">Paldi</p>
+                  <p>New Vikas Gruh Road, Ahmedabad</p>
+                </div>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-dental-teal flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                  (123) 456-7890
-                </a>
-              </li>
-              <li className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-dental-teal flex-shrink-0" />
-                <a href="mailto:info@dentalcare.com" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                  info@dentalcare.com
+                <a href="tel:+916352104371" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
+                  +91 63521 04371
                 </a>
               </li>
             </ul>
@@ -97,7 +99,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} DentalCare. All rights reserved.
+            © {new Date().getFullYear()} Vakharia Multispeciality Dental Clinic. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-slate-400 hover:text-dental-teal transition-colors">
