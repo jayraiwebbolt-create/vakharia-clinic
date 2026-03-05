@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import CTASection from '@/components/CTASection';
-import { Award, Heart, Users, Target, CheckCircle2, Shield, Sparkles } from 'lucide-react';
+import { Award, Heart, Users, Target, CircleCheck as CheckCircle2, Shield, Sparkles } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
