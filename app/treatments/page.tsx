@@ -65,12 +65,6 @@ const treatments = [
     slug: 'veneers-smile-designing',
   },
   {
-    icon: Sparkles,
-    title: 'Teeth Whitening',
-    description: 'Professional whitening treatments for a brighter, more confident smile. Safe, effective, and long-lasting results.',
-    slug: 'teeth-whitening',
-  },
-  {
     icon: Brush,
     title: 'Teeth Cleaning & Polishing',
     description: 'Professional dental cleanings to maintain oral health. Remove plaque, tartar, and stains for a fresh, healthy smile.',

@@ -188,9 +188,9 @@ export default function Home() {
             />
             <TreatmentCard
               icon={Sparkles}
-              title="Teeth Whitening"
-              description="Brighten your smile with professional whitening treatments."
-              slug="teeth-whitening"
+              title="Ceramic Crowns & Bridges"
+              description="Restore broken or missing teeth with natural-looking restorations."
+              slug="ceramic-crowns-bridges"
             />
             <TreatmentCard
               icon={Smile}

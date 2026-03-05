@@ -19,249 +19,192 @@ export const treatmentsData: Record<string, TreatmentData> = {
   'dental-implants': {
     slug: 'dental-implants',
     title: 'Dental Implants',
-    subtitle: 'Permanent Solution for Missing Teeth',
+    subtitle: 'Permanent Tooth Replacement',
     overview:
-      'Dental implants are the gold standard for replacing missing teeth. These titanium posts are surgically placed in your jawbone, providing a strong foundation for artificial teeth that look, feel, and function like natural teeth. Unlike dentures or bridges, implants preserve bone structure and provide long-lasting results.',
+      'Dental implants are the most reliable and permanent solution for missing teeth. They look, feel, and function like natural teeth, restoring your ability to eat, speak, and smile with confidence. At Dr. Gandhi Dental Clinic, we specialize in advanced implantology, using state-of-the-art technology and international-quality materials to ensure lasting results.',
     benefits: [
-      'Natural appearance and feel',
-      'Permanent solution that can last a lifetime',
-      'Preserves jawbone and facial structure',
-      'No damage to adjacent teeth',
-      'Eat and speak with confidence',
-      'High success rate over 95%',
+      'Expert Implant Specialists in Anand',
+      'Digital Planning & Guided Surgery',
+      'In-House Crowns & Bridges Lab',
+      'Affordable Packages',
     ],
     procedure: {
-      title: 'The Implant Process',
+      title: 'About Dental Implants',
       steps: [
-        'Initial consultation and 3D imaging to assess bone structure',
-        'Surgical placement of titanium implant into jawbone',
-        'Healing period (3-6 months) for osseointegration',
-        'Attachment of abutment connector piece',
-        'Custom crown fabrication and placement',
+        'We use digital X-rays, 3D CBCT scans, and intraoral imaging for precise implant placement. This ensures painless procedures, faster recovery, and long-term success rates above 95%.',
+        'Our clinic focuses on painless dentistry with sedation options for anxious patients. With an in-house lab, flexible scheduling, and experienced implantologists, your treatment is stress-free and efficient.',
       ],
     },
-    suitable: [
-      'Adults with one or more missing teeth',
-      'Patients with sufficient jawbone density',
-      'Good oral health and hygiene habits',
-      'Non-smokers or willing to quit',
-      'Looking for a permanent tooth replacement solution',
-    ],
+    suitable: [],
     faqs: [
       {
-        question: 'How long do dental implants last?',
+        question: 'How Long Do Dental Implants Last?',
         answer:
-          'With proper care, dental implants can last a lifetime. The crown may need replacement after 10-15 years due to normal wear, but the implant itself is designed to be permanent.',
+          'With proper care, implants can last 15-20 years or more, making them a long-term solution.',
       },
       {
-        question: 'Is the procedure painful?',
+        question: 'Is Implant Surgery Painful?',
         answer:
-          'The procedure is performed under local anesthesia, so you won\'t feel pain during surgery. Post-operative discomfort is typically mild and can be managed with over-the-counter pain medication.',
+          '',
       },
       {
-        question: 'What is the success rate of dental implants?',
+        question: 'Who Is Eligible For Implants?',
         answer:
-          'Dental implants have a success rate of over 95%. Factors like oral hygiene, overall health, and lifestyle habits affect long-term success.',
+          '',
+      },
+      {
+        question: 'What Is The Recovery Time?',
+        answer:
+          '',
       },
     ],
   },
   'invisalign': {
     slug: 'invisalign',
     title: 'Invisalign®',
-    subtitle: 'Clear Aligner Orthodontic Treatment',
+    subtitle: 'Clear Aligners',
     overview:
-      'Invisalign uses a series of custom-made, clear plastic aligners to gradually straighten your teeth. Unlike traditional braces, these aligners are virtually invisible, removable, and comfortable. Perfect for adults and teens who want to improve their smile without the appearance and inconvenience of metal braces.',
+      'Looking for the best Invisalign treatment in Anand? As a certified Gold Invisalign Provider, Dr. Gandhi Dental Clinic offers clear, comfortable, and removable aligners designed to transform teeth without the hassle of traditional braces.',
     benefits: [
-      'Virtually invisible appearance',
-      'Removable for eating and cleaning',
-      'More comfortable than traditional braces',
-      'Fewer office visits required',
-      'No food restrictions',
-      'Easy to maintain oral hygiene',
+      'Certified Gold Invisalign Provider',
+      'Virtually Invisible Aligners',
+      'Custom-made Treatment Planning',
+      'Comfortable, Removable & Easy To Clean',
     ],
     procedure: {
-      title: 'Your Invisalign Journey',
+      title: 'Invisalign Clear Aligners in Anand',
       steps: [
-        'Comprehensive consultation and digital smile preview',
-        '3D scanning and custom treatment plan creation',
-        'Receive your series of custom aligners',
-        'Wear each set for 1-2 weeks, 20-22 hours daily',
-        'Progress check-ins every 6-8 weeks',
-        'Final retainers to maintain your new smile',
+        'Recognized as a certified Gold Invisalign Provider, Dr. Gandhi Dental Clinic delivers advanced clear aligner treatments with precision, comfort, and proven results.',
       ],
     },
-    suitable: [
-      'Mild to moderate crowding or spacing issues',
-      'Bite alignment problems',
-      'Adults and teens seeking discreet treatment',
-      'Committed to wearing aligners 20-22 hours daily',
-      'Good oral health and hygiene',
-    ],
-    faqs: [
-      {
-        question: 'How long does Invisalign treatment take?',
-        answer:
-          'Treatment typically takes 12-18 months, but simpler cases may be completed in 6 months. Your dentist will provide a personalized timeline.',
-      },
-      {
-        question: 'Can I eat with Invisalign aligners?',
-        answer:
-          'You should remove your aligners when eating or drinking anything other than water. This prevents staining and damage to the aligners.',
-      },
-      {
-        question: 'Will Invisalign affect my speech?',
-        answer:
-          'Most people adapt within a few days. Any initial lisp typically disappears quickly as you get used to wearing the aligners.',
-      },
-    ],
+    suitable: [],
+    faqs: [],
   },
   'root-canal-treatments': {
     slug: 'root-canal-treatments',
     title: 'Root Canal Treatments',
-    subtitle: 'Save Your Natural Teeth',
+    subtitle: 'Pain-Free Care',
     overview:
-      'Root canal therapy is a procedure to treat infection or damage inside a tooth. When the soft tissue (pulp) inside your tooth becomes infected or inflamed, a root canal can save the tooth and prevent the need for extraction. Modern techniques make root canals comfortable and highly successful.',
+      'A root canal treatment (RCT) is a dental procedure used to save a tooth that is infected or badly decayed. Instead of extracting the tooth, our dentists carefully clean and seal the inside of the tooth to restore its function. At Dr. Gandhi Dental Clinic, we use digital X-rays, rotary instruments, and advanced anesthesia techniques to make the procedure comfortable and effective. Patients often compare it to getting a simple filling — fast, safe, and stress-free.',
     benefits: [
-      'Saves your natural tooth',
-      'Eliminates pain and infection',
-      'Prevents spread of infection',
-      'Restores normal chewing function',
-      'Natural appearance maintained',
-      'Cost-effective compared to extraction and replacement',
+      'Relieves Pain & Infection',
+      'Prevents Tooth Extraction',
+      'Saves Your Natural Tooth',
+      'Long-Lasting And Cost-Effective Solution',
     ],
     procedure: {
-      title: 'Root Canal Procedure',
+      title: 'About Root Canal Treatment',
       steps: [
-        'Local anesthesia for complete comfort',
-        'Access opening created in the tooth',
-        'Infected or damaged pulp removed',
-        'Root canals cleaned and disinfected',
-        'Canals filled and sealed',
-        'Crown placed to protect and restore the tooth',
+        'Our clinic is equipped with rotary endodontics, apex locators, and digital imaging to ensure accuracy and faster recovery. Sedation options are available for anxious patients, ensuring a stress-free experience.',
       ],
     },
-    suitable: [
-      'Deep tooth decay reaching the pulp',
-      'Cracked or damaged tooth',
-      'Severe tooth sensitivity to hot or cold',
-      'Swelling or abscess near a tooth',
-      'Persistent tooth pain',
-    ],
+    suitable: [],
     faqs: [
       {
-        question: 'Are root canals painful?',
+        question: 'Is Root Canal Treatment Painful?',
         answer:
-          'Modern root canal treatments are no more uncomfortable than getting a filling. Local anesthesia ensures you feel no pain during the procedure.',
+          'No, with modern anesthesia and rotary tools, RCT is virtually painless.',
       },
       {
-        question: 'How long does a root canal take?',
+        question: 'How Many Sittings Does It Take?',
         answer:
-          'Most root canals can be completed in one or two appointments, each lasting 60-90 minutes depending on the tooth location and complexity.',
+          '',
       },
       {
-        question: 'What happens after a root canal?',
+        question: 'How Long Does A Root Canal Last?',
         answer:
-          'You may experience mild sensitivity for a few days. A permanent crown is typically placed 2-3 weeks after the procedure to protect the tooth.',
+          '',
+      },
+      {
+        question: 'Do I Always Need A Crown After RCT?',
+        answer:
+          '',
       },
     ],
   },
   'ceramic-crowns-bridges': {
     slug: 'ceramic-crowns-bridges',
     title: 'Ceramic Crowns & Bridges',
-    subtitle: 'Restore Strength and Beauty',
+    subtitle: 'Natural Restorations',
     overview:
-      'Ceramic crowns and bridges are custom-made restorations that restore damaged or missing teeth. Crowns cover a damaged tooth to restore its shape, strength, and appearance. Bridges replace missing teeth by anchoring to adjacent teeth. Modern ceramics provide exceptional strength and natural aesthetics.',
+      'Ceramic crowns and bridges are fixed dental restorations that replace or cover damaged teeth and fill gaps left by missing teeth. Crowns are caps placed on weakened or treated teeth, while bridges are used to replace one or more missing teeth by anchoring to nearby teeth or implants. At Dr. Gandhi Dental Clinic, we use high-quality ceramic and zirconia materials to ensure your restorations look natural, last long, and blend seamlessly with your smile.',
     benefits: [
-      'Natural-looking results that match your teeth',
-      'Durable and long-lasting',
-      'Restores full chewing function',
-      'Protects weakened teeth',
-      'Improves smile appearance',
-      'Biocompatible materials',
+      'Restore Broken, Worn, Or Treated Teeth',
+      'Natural, Tooth-Colored Appearance',
+      'Replace Missing Teeth Permanently',
+      'Improves Chewing And Speech',
+      'Protects Treated Teeth After RCT',
     ],
     procedure: {
-      title: 'Crown and Bridge Process',
+      title: 'About Ceramic Crowns & Bridges',
       steps: [
-        'Tooth preparation and shaping',
-        'Digital impressions or traditional molds',
-        'Temporary restoration placed',
-        'Custom ceramic restoration fabricated',
-        'Final restoration fitted and bonded',
-        'Bite adjustment and polishing',
+        'We use digital scanners, CAD/CAM technology, and an in-house lab to design crowns and bridges with maximum precision. This eliminates messy impressions and reduces waiting time, making the entire process smooth and stress-free.',
       ],
     },
-    suitable: [
-      'Severely decayed or damaged teeth',
-      'Teeth requiring root canal treatment',
-      'Missing teeth with healthy adjacent teeth',
-      'Cosmetic improvement needs',
-      'Fractured or worn teeth',
-    ],
+    suitable: [],
     faqs: [
       {
-        question: 'How long do ceramic crowns last?',
+        question: 'How Long Do Ceramic Crowns Last?',
         answer:
-          'With proper care, ceramic crowns typically last 10-15 years or longer. Good oral hygiene and regular dental visits help maximize their lifespan.',
+          'With proper care, crowns and bridges can last 10-15 years or more.',
       },
       {
-        question: 'Will my crown look natural?',
+        question: 'Is The Procedure Painful?',
         answer:
-          'Yes! Modern ceramic materials are carefully matched to your natural tooth color and translucency, making them virtually indistinguishable from your real teeth.',
+          '',
       },
       {
-        question: 'Can I eat normally with crowns and bridges?',
+        question: 'Which Is Better — Ceramic Or Metal Crowns?',
         answer:
-          'Yes, crowns and bridges restore full chewing function. Avoid extremely hard foods initially, but you can return to normal eating habits once adjusted.',
+          '',
+      },
+      {
+        question: 'Do I Need A Crown After Root Canal Treatment?',
+        answer:
+          '',
       },
     ],
   },
   'wisdom-tooth-surgery': {
     slug: 'wisdom-tooth-surgery',
     title: 'Wisdom Tooth Surgery',
-    subtitle: 'Safe and Comfortable Extraction',
+    subtitle: 'Safe & Modern Extraction',
     overview:
-      'Wisdom tooth extraction is often necessary when these third molars don\'t have enough room to emerge properly. Impacted wisdom teeth can cause pain, infection, and damage to adjacent teeth. Our experienced surgeons use modern techniques and sedation options to ensure a comfortable experience.',
+      'Wisdom teeth, or third molars, often erupt between ages 17-25 and can cause pain, infection, or crowding. If untreated, they may damage nearby teeth or gums. At Dr. Gandhi Dental Clinic, we perform safe and precise wisdom tooth extractions using digital imaging and advanced surgical techniques for faster healing and minimal discomfort.',
     benefits: [
-      'Prevents future dental problems',
-      'Relieves pain and discomfort',
-      'Reduces infection risk',
-      'Protects adjacent teeth',
-      'Prevents crowding',
-      'Sedation options available',
+      'Painless Procedure With Local Anesthesia',
+      'Digital X-Ray & 3D Imaging For Accuracy',
+      'Faster Recovery With Advanced Techniques',
+      'Prevents Infection & Damage To Nearby Teeth',
+      'Expert Oral Surgeons For Safe Extractions',
     ],
     procedure: {
-      title: 'Extraction Process',
+      title: 'About Wisdom Tooth Surgery',
       steps: [
-        'Comprehensive examination with 3D imaging',
-        'Sedation or anesthesia administration',
-        'Careful extraction of wisdom teeth',
-        'Cleaning and preparation of the site',
-        'Stitches placed if necessary',
-        'Post-operative care instructions provided',
+        'With modern tools and sedation options, our patients experience stress-free extractions and quicker recovery. Post-surgery care ensures long-term oral health.',
       ],
     },
-    suitable: [
-      'Impacted wisdom teeth',
-      'Partially erupted wisdom teeth',
-      'Crowded wisdom teeth',
-      'Recurrent infections around wisdom teeth',
-      'Preventive removal before problems occur',
-    ],
+    suitable: [],
     faqs: [
       {
-        question: 'When should wisdom teeth be removed?',
+        question: 'When Should Wisdom Teeth Be Removed?',
         answer:
-          'Ideally, wisdom teeth are removed in late teens or early twenties before roots fully develop. Your dentist will recommend timing based on your specific situation.',
+          'Wisdom teeth should be removed if they cause pain, infection, swelling, or crowding of other teeth.',
       },
       {
-        question: 'What is recovery like after wisdom tooth extraction?',
+        question: 'Is Wisdom Tooth Surgery Painful?',
         answer:
-          'Most people recover in 3-7 days. Expect some swelling and discomfort for the first few days. Follow post-operative instructions carefully for optimal healing.',
+          '',
       },
       {
-        question: 'Will I be awake during the procedure?',
+        question: 'How Long Is The Recovery Period?',
         answer:
-          'We offer various sedation options including local anesthesia, nitrous oxide, and IV sedation. You can choose the option that makes you most comfortable.',
+          '',
+      },
+      {
+        question: 'What Should I Eat After Surgery?',
+        answer:
+          '',
       },
     ],
   },
@@ -362,56 +305,6 @@ export const treatmentsData: Record<string, TreatmentData> = {
         question: 'Can veneers be whitened?',
         answer:
           'Veneers don\'t respond to whitening treatments, but they\'re highly stain-resistant. Choose your desired shade during the design phase.',
-      },
-    ],
-  },
-  'teeth-whitening': {
-    slug: 'teeth-whitening',
-    title: 'Teeth Whitening',
-    subtitle: 'Brighten Your Smile',
-    overview:
-      'Professional teeth whitening is the fastest way to enhance your smile. Our advanced whitening systems can lighten teeth several shades in just one visit. We offer both in-office treatments for immediate results and take-home kits for gradual whitening.',
-    benefits: [
-      'Noticeable results in one session',
-      'Safe and effective treatment',
-      'Customized to your needs',
-      'Boost confidence instantly',
-      'Long-lasting with proper care',
-      'Professional-grade products',
-    ],
-    procedure: {
-      title: 'Whitening Process',
-      steps: [
-        'Shade assessment and goal setting',
-        'Professional cleaning',
-        'Gum protection application',
-        'Whitening gel application',
-        'LED light activation (in-office)',
-        'Post-treatment care instructions',
-      ],
-    },
-    suitable: [
-      'Yellow or brown tooth discoloration',
-      'Healthy teeth and gums',
-      'Realistic expectations',
-      'Special occasions or events',
-      'Overall smile enhancement',
-    ],
-    faqs: [
-      {
-        question: 'How white will my teeth get?',
-        answer:
-          'Results vary by individual, but most patients achieve 2-8 shades lighter. Your dentist will discuss realistic expectations during consultation.',
-      },
-      {
-        question: 'Is teeth whitening safe?',
-        answer:
-          'Yes, professional whitening is safe when performed by a dental professional. Some patients may experience temporary sensitivity.',
-      },
-      {
-        question: 'How long do whitening results last?',
-        answer:
-          'Results typically last 1-3 years, depending on your diet and habits. Touch-up treatments can maintain your bright smile.',
       },
     ],
   },
