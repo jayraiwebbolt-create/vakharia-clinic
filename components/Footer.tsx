@@ -7,11 +7,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-dental-teal rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">V</span>
+            <div className="mb-4">
+              <div className="h-16 w-auto">
+                <img
+                  src="/3.png"
+                  alt="Vakharia Multispeciality Dental Clinic"
+                  className="h-full w-auto object-contain brightness-0 invert"
+                />
               </div>
-              <span className="text-xl font-bold">Vakharia Dental</span>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">
               With 55+ years of legacy, providing ethical, affordable, and excellent dental care in Ahmedabad.
