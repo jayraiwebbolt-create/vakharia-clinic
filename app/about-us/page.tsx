@@ -51,7 +51,7 @@ export default function AboutUs() {
                   <p className="text-muted-foreground">Years of Excellence</p>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-dental-teal mb-2">1000s</div>
+                  <div className="text-4xl font-bold text-dental-teal mb-2">10000s</div>
                   <p className="text-muted-foreground">Successful Treatments</p>
                 </div>
               </div>

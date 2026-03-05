@@ -58,13 +58,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/treatments/teeth-whitening" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                  Teeth Whitening
+                <Link href="/treatments/veneers-smile-designing" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
+                  Veneers & Smile Design
                 </Link>
               </li>
               <li>
-                <Link href="/treatments/veneers-smile-designing" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                  Veneers & Smile Design
+                <Link href="/treatments/root-canal-treatments" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
+                  Root Canal Treatments
                 </Link>
               </li>
             </ul>
@@ -89,9 +89,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-dental-teal flex-shrink-0" />
-                <a href="tel:+916352104371" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                  +91 63521 04371
-                </a>
+                <div className="flex flex-col">
+                  <a href="tel:+916352104371" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
+                    +91 63521 04371
+                  </a>
+                  <a href="tel:07926609368" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
+                    079 2660 9368
+                  </a>
+                </div>
               </li>
             </ul>
           </div>

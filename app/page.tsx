@@ -46,18 +46,18 @@ export default function Home() {
                   </Button>
                 </Link>
               </div>
-              <div className="grid grid-cols-3 gap-6 pt-8">
+              <div className="grid grid-cols-3 gap-4 sm:gap-6 pt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-dental-teal mb-1">55+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-dental-teal mb-1">55+</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Years Experience</div>
                 </div>
-                <div className="text-center border-x">
-                  <div className="text-3xl font-bold text-dental-teal mb-1">10000+</div>
-                  <div className="text-sm text-muted-foreground">Happy Patients</div>
+                <div className="text-center border-x border-gray-200">
+                  <div className="text-2xl sm:text-3xl font-bold text-dental-teal mb-1">80000+</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Happy Patients</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-dental-teal mb-1">2</div>
-                  <div className="text-sm text-muted-foreground">Clinic Locations</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-dental-teal mb-1">2</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Clinic Locations</div>
                 </div>
               </div>
             </div>
@@ -82,9 +82,9 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <ServiceCard
-              icon={Smile}
-              title="Cosmetic Dentistry"
-              description="Transform your smile with veneers, whitening, and smile design treatments."
+              icon={CircleDot}
+              title="Implant Dentistry"
+              description="Permanent tooth replacement solutions with natural-looking dental implants."
             />
             <ServiceCard
               icon={Stethoscope}
@@ -289,9 +289,9 @@ export default function Home() {
               },
               {
                 name: 'Anjali Desai',
-                treatment: 'Teeth Whitening',
+                treatment: 'Veneers & Smile Design',
                 rating: 5,
-                text: 'Professional, caring, and the results are amazing! My teeth are several shades whiter and I received so many compliments. Highly recommend Vakharia Dental!',
+                text: 'Professional, caring, and the results are amazing! My smile transformation with veneers exceeded all expectations. I received so many compliments. Highly recommend Vakharia Dental!',
               },
             ].map((testimonial, index) => (
               <Card key={index} className="border-none shadow-lg bg-white">

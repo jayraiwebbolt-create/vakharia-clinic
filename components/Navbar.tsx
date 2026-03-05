@@ -13,7 +13,6 @@ const treatments = [
   { slug: 'wisdom-tooth-surgery', label: 'Wisdom Tooth Surgery' },
   { slug: 'gum-surgeries', label: 'Gum Surgeries' },
   { slug: 'veneers-smile-designing', label: 'Veneers & Smile Designing' },
-  { slug: 'teeth-whitening', label: 'Teeth Whitening' },
   { slug: 'teeth-cleaning-polishing', label: 'Teeth Cleaning & Polishing' },
   { slug: 'dental-fillings', label: 'Dental Fillings' },
   { slug: 'dentures', label: 'Dentures' },
