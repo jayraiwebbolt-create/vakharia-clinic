@@ -41,11 +41,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center">
-            <div className="h-14 w-auto">
+            <div className="h-16 w-48 sm:w-56 md:w-64">
               <img
                 src="/3.png"
                 alt="Vakharia Multispeciality Dental Clinic"
-                className="h-full w-auto object-contain"
+                className="h-full w-full object-cover"
               />
             </div>
           </Link>
