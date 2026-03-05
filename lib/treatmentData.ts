@@ -232,50 +232,44 @@ export const treatmentsData: Record<string, TreatmentData> = {
   'gum-surgeries': {
     slug: 'gum-surgeries',
     title: 'Gum Surgeries',
-    subtitle: 'Advanced Periodontal Care',
+    subtitle: 'Healthy Gums, Healthy Smile',
     overview:
-      'Gum surgery treats advanced gum disease and other periodontal conditions. These procedures restore gum health, reduce pocket depths, and regenerate lost bone and tissue. Modern minimally invasive techniques promote faster healing and improved outcomes.',
+      'Treat bleeding gums, recession, and gum infection with advanced periodontal care at Dr. Gandhi Dental Clinic, Anand. Safe, precise, and comfortable treatment for lasting results.',
     benefits: [
-      'Stops progression of gum disease',
-      'Reduces pocket depths',
-      'Regenerates lost tissue and bone',
-      'Improves long-term tooth stability',
-      'Enhances smile aesthetics',
-      'Prevents tooth loss',
+      'Stops Bleeding, Swelling, And Infection',
+      'Treats Gum Recession And Sensitivity',
+      'Comfortable Procedures With Quick Recovery',
+      'Stabilizes Teeth And Preserves Bone',
+      'Improves Breath And Oral Hygiene',
     ],
     procedure: {
-      title: 'Periodontal Surgery Process',
+      title: 'About Gum (Periodontal) Treatment',
       steps: [
-        'Comprehensive periodontal evaluation',
-        'Local anesthesia and sedation if needed',
-        'Gentle tissue manipulation and cleaning',
-        'Removal of diseased tissue',
-        'Bone grafting or regeneration if needed',
-        'Suturing and healing instructions',
+        'Gum disease can lead to swollen, bleeding gums, bad breath, bone loss, and loose teeth. Our periodontal treatments range from deep cleaning (scaling & root planing) to flap surgery, bone grafting, and recession coverage—planned to restore gum health and protect your teeth.',
+        'We use digital X-rays, ultrasonic scalers, and microsurgical techniques to minimize discomfort, speed healing, and preserve natural tissues wherever possible.',
       ],
     },
-    suitable: [
-      'Advanced gum disease (periodontitis)',
-      'Deep periodontal pockets',
-      'Receding gums',
-      'Bone loss around teeth',
-      'Gum tissue overgrowth',
-    ],
+    suitable: [],
     faqs: [
       {
-        question: 'Is gum surgery painful?',
+        question: 'What Are The Signs I Need Gum Treatment?',
         answer:
-          'The procedure is performed under local anesthesia, so you won\'t feel pain during surgery. Post-operative discomfort is manageable with prescribed pain medication.',
+          'Persistent bleeding, swelling, bad breath, gum recession, loose teeth, or pain while chewing are common warning signs.',
       },
       {
-        question: 'How long does recovery take?',
+        question: 'Is Gum Surgery Painful?',
         answer:
-          'Initial healing takes 1-2 weeks, with full tissue maturation occurring over several months. Most patients return to normal activities within a few days.',
+          'No, the procedure is performed under local anesthesia. Most patients experience minimal discomfort during recovery, which is easily managed with prescribed medication.',
       },
       {
-        question: 'Can gum disease be cured?',
+        question: 'How Long Is The Recovery Period?',
         answer:
-          'While gum disease can be controlled and its progression stopped, maintaining results requires excellent oral hygiene and regular professional cleanings.',
+          'Initial healing takes 1-2 weeks. Most patients return to normal activities within a few days, though complete tissue maturation takes several months.',
+      },
+      {
+        question: 'Will Gum Disease Come Back After Treatment?',
+        answer:
+          'With proper oral hygiene and regular professional cleanings, gum disease can be controlled. Maintenance visits and good home care are essential for long-term success.',
       },
     ],
   },
