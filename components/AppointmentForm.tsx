@@ -7,12 +7,6 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Calendar, Clock } from 'lucide-react';
-import { createClient } from '@supabase/supabase-js';
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || '',
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''
-);
 
 export default function AppointmentForm() {
   const [formData, setFormData] = useState({
@@ -24,36 +18,25 @@ export default function AppointmentForm() {
     message: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitMessage, setSubmitMessage] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setSubmitMessage('');
 
-    try {
-      const { error } = await supabase.from('appointments').insert([formData]);
+    const whatsappMessage = `Hi, I would like to book an appointment.%0A%0AName: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0APreferred Date: ${formData.date}%0APreferred Time: ${formData.time}%0AMessage: ${formData.message || 'None'}`;
 
-      if (error) throw error;
+    window.open(`https://wa.me/916352104371?text=${whatsappMessage}`, '_blank');
 
-      const whatsappMessage = `Hi, I would like to book an appointment.%0A%0AName: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0APreferred Date: ${formData.date}%0APreferred Time: ${formData.time}%0AMessage: ${formData.message || 'None'}`;
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      date: '',
+      time: '',
+      message: '',
+    });
 
-      window.open(`https://wa.me/916352104371?text=${whatsappMessage}`, '_blank');
-
-      setSubmitMessage('Redirecting to WhatsApp...');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        date: '',
-        time: '',
-        message: '',
-      });
-    } catch (error) {
-      setSubmitMessage('Failed to submit appointment. Please try again or call us directly.');
-    } finally {
-      setIsSubmitting(false);
-    }
+    setIsSubmitting(false);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -162,18 +145,8 @@ export default function AppointmentForm() {
             className="w-full bg-dental-teal hover:bg-dental-teal-dark text-white"
             disabled={isSubmitting}
           >
-            {isSubmitting ? 'Submitting...' : 'Book Appointment'}
+            {isSubmitting ? 'Opening WhatsApp...' : 'Book Appointment'}
           </Button>
-
-          {submitMessage && (
-            <p
-              className={`text-sm text-center ${
-                submitMessage.includes('successfully') ? 'text-green-600' : 'text-red-600'
-              }`}
-            >
-              {submitMessage}
-            </p>
-          )}
         </form>
       </CardContent>
     </Card>
