@@ -40,22 +40,22 @@ export const treatmentsData: Record<string, TreatmentData> = {
       {
         question: 'How Long Do Dental Implants Last?',
         answer:
-          'With proper care, implants can last 15-20 years or more, making them a long-term solution.',
+          'With proper care, implants can last 15-20 years or more, making them a long-term solution. Regular dental check-ups and good oral hygiene are essential for longevity.',
       },
       {
         question: 'Is Implant Surgery Painful?',
         answer:
-          '',
+          'No, the procedure is performed under local anesthesia, making it virtually painless. We also offer sedation options for anxious patients. Most patients report minimal discomfort during recovery, which can be managed with prescribed medication.',
       },
       {
         question: 'Who Is Eligible For Implants?',
         answer:
-          '',
+          'Most adults with missing teeth are eligible for implants. You need adequate bone density and healthy gums. We perform a comprehensive evaluation including 3D CBCT scans to determine suitability. Even if bone loss is present, bone grafting can make implants possible.',
       },
       {
         question: 'What Is The Recovery Time?',
         answer:
-          '',
+          'Initial healing takes 7-10 days. Complete osseointegration (bone fusion) takes 3-6 months before the final crown is placed. During this period, temporary restorations ensure you can eat and smile normally.',
       },
     ],
   },
@@ -78,7 +78,28 @@ export const treatmentsData: Record<string, TreatmentData> = {
       ],
     },
     suitable: [],
-    faqs: [],
+    faqs: [
+      {
+        question: 'How Long Does Invisalign Treatment Take?',
+        answer:
+          'Treatment typically takes 12-18 months, depending on your case complexity. Mild cases may be completed in 6-8 months, while more complex cases may take up to 24 months. You\'ll see visible changes within the first few months.',
+      },
+      {
+        question: 'How Often Do I Need To Wear The Aligners?',
+        answer:
+          'Aligners must be worn 20-22 hours per day for optimal results. You can remove them only for eating, drinking, brushing, and flossing. Consistent wear is crucial for staying on schedule.',
+      },
+      {
+        question: 'Are Invisalign Aligners Really Invisible?',
+        answer:
+          'Yes! Invisalign aligners are made from clear, medical-grade plastic that is virtually invisible when worn. Most people won\'t notice you\'re wearing them unless they look very closely.',
+      },
+      {
+        question: 'Can Invisalign Fix All Orthodontic Issues?',
+        answer:
+          'Invisalign can treat most common orthodontic issues including crowding, gaps, overbite, underbite, and crossbite. During your consultation, we\'ll assess if Invisalign is the right solution for your specific case.',
+      },
+    ],
   },
   'root-canal-treatments': {
     slug: 'root-canal-treatments',
@@ -103,22 +124,22 @@ export const treatmentsData: Record<string, TreatmentData> = {
       {
         question: 'Is Root Canal Treatment Painful?',
         answer:
-          'No, with modern anesthesia and rotary tools, RCT is virtually painless.',
+          'No, with modern anesthesia and rotary tools, RCT is virtually painless. The procedure actually relieves the pain caused by infection. Most patients report the experience is similar to getting a regular filling.',
       },
       {
         question: 'How Many Sittings Does It Take?',
         answer:
-          '',
+          'Most root canal treatments can be completed in 1-2 visits. Simple cases may be done in a single appointment, while complex cases or severe infections may require 2-3 visits to ensure complete healing.',
       },
       {
         question: 'How Long Does A Root Canal Last?',
         answer:
-          '',
+          'A properly treated root canal can last a lifetime with good oral hygiene and regular dental check-ups. Protecting the tooth with a crown significantly improves long-term success rates.',
       },
       {
         question: 'Do I Always Need A Crown After RCT?',
         answer:
-          '',
+          'In most cases, yes. Root canal treatment removes the tooth\'s nerve and blood supply, making it more brittle. A crown protects the tooth from fracturing and restores its strength and function. Front teeth with minimal damage may not always need crowns.',
       },
     ],
   },
@@ -146,22 +167,22 @@ export const treatmentsData: Record<string, TreatmentData> = {
       {
         question: 'How Long Do Ceramic Crowns Last?',
         answer:
-          'With proper care, crowns and bridges can last 10-15 years or more.',
+          'With proper care, crowns and bridges can last 10-15 years or more. Some patients have crowns that last 20+ years. Regular dental check-ups, good oral hygiene, and avoiding habits like teeth grinding extend their lifespan.',
       },
       {
         question: 'Is The Procedure Painful?',
         answer:
-          '',
+          'No, the procedure is performed under local anesthesia, so you won\'t feel any pain. There may be mild sensitivity for a few days after tooth preparation, which is normal and can be managed with over-the-counter pain medication.',
       },
       {
         question: 'Which Is Better — Ceramic Or Metal Crowns?',
         answer:
-          '',
+          'Ceramic crowns are preferred for visible teeth as they look completely natural and match your tooth color perfectly. Metal crowns are stronger and may be recommended for back molars where chewing forces are greatest. We\'ll recommend the best option based on your specific needs.',
       },
       {
         question: 'Do I Need A Crown After Root Canal Treatment?',
         answer:
-          '',
+          'Yes, in most cases a crown is essential after root canal treatment. The procedure removes the tooth\'s blood supply, making it brittle and prone to fracture. A crown protects and strengthens the tooth, ensuring it lasts for many years.',
       },
     ],
   },
@@ -189,22 +210,22 @@ export const treatmentsData: Record<string, TreatmentData> = {
       {
         question: 'When Should Wisdom Teeth Be Removed?',
         answer:
-          'Wisdom teeth should be removed if they cause pain, infection, swelling, or crowding of other teeth.',
+          'Wisdom teeth should be removed if they cause pain, infection, swelling, or crowding of other teeth. Impacted wisdom teeth that haven\'t fully erupted should also be removed to prevent future complications. Early removal in your late teens or early twenties typically results in easier surgery and faster recovery.',
       },
       {
         question: 'Is Wisdom Tooth Surgery Painful?',
         answer:
-          '',
+          'The procedure itself is painless as it\'s performed under local anesthesia with optional sedation. You may experience some swelling and discomfort for 3-5 days after surgery, which is easily managed with prescribed pain medication and ice packs.',
       },
       {
         question: 'How Long Is The Recovery Period?',
         answer:
-          '',
+          'Most patients recover within 3-7 days. Swelling peaks around day 2-3 and gradually subsides. You can return to normal activities in 2-3 days, though strenuous exercise should be avoided for a week. Complete healing of the extraction site takes 2-3 weeks.',
       },
       {
         question: 'What Should I Eat After Surgery?',
         answer:
-          '',
+          'Stick to soft, cool foods for the first few days: yogurt, smoothies, mashed potatoes, soups, and ice cream. Avoid hot foods, crunchy items, and using straws (suction can dislodge the blood clot). Gradually return to your normal diet as healing progresses.',
       },
     ],
   },
