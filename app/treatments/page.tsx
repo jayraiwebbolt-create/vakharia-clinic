@@ -30,7 +30,7 @@ const treatments = [
   },
   {
     icon: AlignVerticalSpaceAround,
-    title: 'Invisalign®',
+    title: 'Invisalign',
     description: 'Straighten your teeth discreetly with custom clear aligners. Comfortable, removable, and virtually invisible orthodontic treatment.',
     slug: 'invisalign',
   },

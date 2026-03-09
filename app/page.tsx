@@ -200,7 +200,7 @@ export default function Home() {
             />
             <TreatmentCard
               icon={AlignVerticalSpaceAround}
-              title="Invisalign®"
+              title="Invisalign"
               description="Straighten your teeth discreetly with clear aligners."
               slug="invisalign"
             />

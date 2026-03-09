@@ -39,7 +39,7 @@ export default function ContactUs() {
                       </div>
                       <div>
                         <h3 className="font-bold text-2xl text-foreground mb-2">Clinic 1 – Maninagar</h3>
-                        <p className="text-dental-teal font-semibold">Established Clinic</p>
+                        <p className="text-dental-teal font-semibold">Serving from 55+ years</p>
                       </div>
                     </div>
 
@@ -100,10 +100,10 @@ export default function ContactUs() {
                             079 2660 9368
                           </a>
                           <a
-                            href="tel:+916320048376"
+                            href="tel:+918320048376"
                             className="text-foreground hover:text-dental-teal transition-colors font-medium block"
                           >
-                            +91 63200 48376
+                            +91 83200 48376
                           </a>
                         </div>
                       </div>
@@ -183,11 +183,11 @@ export default function ContactUs() {
                     079 2660 9368
                   </a>
                   <a
-                    href="tel:+916320048376"
+                    href="tel:+918320048376"
                     className="inline-flex items-center justify-center px-6 py-3 border-2 border-dental-teal text-dental-teal hover:bg-dental-blue-light font-semibold rounded-lg transition-colors"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    +91 63200 48376
+                    +91 83200 48376
                   </a>
                 </div>
               </CardContent>

@@ -64,7 +64,7 @@ export const treatmentsData: Record<string, TreatmentData> = {
   },
   'invisalign': {
     slug: 'invisalign',
-    title: 'Invisalign®',
+    title: 'Invisalign',
     subtitle: 'Clear Aligners',
     overview:
       'Looking for the best Invisalign treatment in Ahmedabad? Dr. Vakharia Dental Clinic offers clear, comfortable, and removable aligners designed to transform teeth without the hassle of traditional braces.',

@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="mb-4">
-              <div className="h-20 w-60 sm:w-72">
+              <div className="h-24 w-80">
                 <img
                   src="/3.png"
                   alt="Vakharia Multispeciality Dental Clinic"
-                  className="h-full w-full object-cover brightness-0 invert"
+                  className="h-full w-full object-cover brightness-0 invert scale-150 origin-left"
                 />
               </div>
             </div>
@@ -56,8 +56,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/treatments/invisalign" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                  Invisalign®
+                <Link href="/treatments/root-canal-treatments" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
+                  Root Canal Treatments
                 </Link>
               </li>
               <li>
@@ -66,8 +66,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/treatments/root-canal-treatments" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                  Root Canal Treatments
+                <Link href="/treatments/ceramic-crowns-bridges" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
+                  Crowns & Bridges
                 </Link>
               </li>
             </ul>
@@ -75,30 +75,35 @@ export default function Footer() {
 
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact Info</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-dental-teal flex-shrink-0 mt-0.5" />
                 <div className="text-slate-300 text-sm">
                   <p className="font-semibold mb-1">Maninagar</p>
-                  <p>Kankaria Road, Ahmedabad</p>
+                  <p className="mb-1">Kankaria Road, Ahmedabad</p>
+                  <div className="flex flex-col space-y-0.5">
+                    <a href="tel:07925326716" className="hover:text-dental-teal transition-colors">
+                      079 25326716
+                    </a>
+                    <a href="tel:+916352104371" className="hover:text-dental-teal transition-colors">
+                      63521 04371
+                    </a>
+                  </div>
                 </div>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-dental-teal flex-shrink-0 mt-0.5" />
                 <div className="text-slate-300 text-sm">
                   <p className="font-semibold mb-1">Paldi</p>
-                  <p>New Vikas Gruh Road, Ahmedabad</p>
-                </div>
-              </li>
-              <li className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-dental-teal flex-shrink-0" />
-                <div className="flex flex-col">
-                  <a href="tel:+916352104371" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                    +91 63521 04371
-                  </a>
-                  <a href="tel:07926609368" className="text-slate-300 hover:text-dental-teal transition-colors text-sm">
-                    079 2660 9368
-                  </a>
+                  <p className="mb-1">New Vikas Gruh Road, Ahmedabad</p>
+                  <div className="flex flex-col space-y-0.5">
+                    <a href="tel:07926609368" className="hover:text-dental-teal transition-colors">
+                      079 2660 9368
+                    </a>
+                    <a href="tel:+918320048376" className="hover:text-dental-teal transition-colors">
+                      83200 48376
+                    </a>
+                  </div>
                 </div>
               </li>
             </ul>

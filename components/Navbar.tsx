@@ -7,11 +7,11 @@ import { Button } from '@/components/ui/button';
 
 const treatments = [
   { slug: 'dental-implants', label: 'Dental Implants' },
-  { slug: 'invisalign', label: 'Invisalign®' },
   { slug: 'root-canal-treatments', label: 'Root Canal Treatments' },
   { slug: 'ceramic-crowns-bridges', label: 'Ceramic Crowns & Bridges' },
   { slug: 'wisdom-tooth-surgery', label: 'Wisdom Tooth Surgery' },
   { slug: 'gum-surgeries', label: 'Gum Surgeries' },
+  { slug: 'invisalign', label: 'Invisalign' },
   { slug: 'veneers-smile-designing', label: 'Veneers & Smile Designing' },
   { slug: 'teeth-cleaning-polishing', label: 'Teeth Cleaning & Polishing' },
   { slug: 'dental-fillings', label: 'Dental Fillings' },
