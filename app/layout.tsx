@@ -4,11 +4,11 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'DentalCare - Premium Dental Services',
-  description: 'Experience exceptional dental care with state-of-the-art technology and compassionate service. Offering dental implants, Invisalign, teeth whitening, and more.',
+  title: 'Vakharia Multispeciality Dental Clinic - Expert Dental Care in Ahmedabad',
+  description: 'Experience exceptional dental care with advanced modern technology and compassionate service. Offering dental implants, Invisalign, teeth whitening, and more.',
   openGraph: {
-    title: 'DentalCare - Premium Dental Services',
-    description: 'Experience exceptional dental care with state-of-the-art technology and compassionate service.',
+    title: 'Vakharia Multispeciality Dental Clinic',
+    description: 'Experience exceptional dental care with advanced modern technology and compassionate service.',
     images: [
       {
         url: 'https://bolt.new/static/og_default.png',
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DentalCare - Premium Dental Services',
-    description: 'Experience exceptional dental care with state-of-the-art technology and compassionate service.',
+    title: 'Vakharia Multispeciality Dental Clinic',
+    description: 'Experience exceptional dental care with advanced modern technology and compassionate service.',
     images: [
       {
         url: 'https://bolt.new/static/og_default.png',

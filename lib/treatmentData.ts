@@ -21,18 +21,21 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Dental Implants',
     subtitle: 'Permanent Tooth Replacement',
     overview:
-      'Dental implants are the most reliable and permanent solution for missing teeth. They look, feel, and function like natural teeth, restoring your ability to eat, speak, and smile with confidence. At Dr. Gandhi Dental Clinic, we specialize in advanced implantology, using state-of-the-art technology and international-quality materials to ensure lasting results.',
+      'Dental implants are the most reliable and permanent solution for missing teeth. They look, feel, and function like natural teeth, restoring your ability to eat, speak, and smile with confidence. At Dr. Vakharia Dental Clinic, we specialize in advanced implantology, using modern techniques and international-quality materials to ensure lasting results.',
     benefits: [
-      'Expert Implant Specialists in Anand',
+      'Expert Implant Specialists in Ahmedabad',
       'Digital Planning & Guided Surgery',
-      'In-House Crowns & Bridges Lab',
-      'Affordable Packages',
+      'High Success Rate Above 95%',
+      'Affordable Treatment Packages',
+      'Permanent & Long-Lasting Solution',
+      'Natural Look & Comfortable Fit',
     ],
     procedure: {
       title: 'About Dental Implants',
       steps: [
         'We use digital X-rays, 3D CBCT scans, and intraoral imaging for precise implant placement. This ensures painless procedures, faster recovery, and long-term success rates above 95%.',
-        'Our clinic focuses on painless dentistry with sedation options for anxious patients. With an in-house lab, flexible scheduling, and experienced implantologists, your treatment is stress-free and efficient.',
+        'Our clinic focuses on painless dentistry for anxious patients. With flexible scheduling and experienced implantologists, your treatment is stress-free and efficient.',
+        'Each implant is carefully placed to integrate with your jawbone, providing a stable foundation that mimics your natural tooth root. The result is a restoration that functions and feels just like your original teeth.',
       ],
     },
     suitable: [],
@@ -45,7 +48,7 @@ export const treatmentsData: Record<string, TreatmentData> = {
       {
         question: 'Is Implant Surgery Painful?',
         answer:
-          'No, the procedure is performed under local anesthesia, making it virtually painless. We also offer sedation options for anxious patients. Most patients report minimal discomfort during recovery, which can be managed with prescribed medication.',
+          'No, the procedure is performed under local anesthesia, making it virtually painless. Most patients report minimal discomfort during recovery, which can be managed with prescribed medication.',
       },
       {
         question: 'Who Is Eligible For Implants?',
@@ -64,17 +67,21 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Invisalign®',
     subtitle: 'Clear Aligners',
     overview:
-      'Looking for the best Invisalign treatment in Anand? As a certified Gold Invisalign Provider, Dr. Gandhi Dental Clinic offers clear, comfortable, and removable aligners designed to transform teeth without the hassle of traditional braces.',
+      'Looking for the best Invisalign treatment in Ahmedabad? Dr. Vakharia Dental Clinic offers clear, comfortable, and removable aligners designed to transform teeth without the hassle of traditional braces.',
     benefits: [
-      'Certified Gold Invisalign Provider',
+      'Experienced Invisalign Providers',
       'Virtually Invisible Aligners',
       'Custom-made Treatment Planning',
       'Comfortable, Removable & Easy To Clean',
+      'No Food Restrictions',
+      'Predictable & Effective Results',
     ],
     procedure: {
-      title: 'Invisalign Clear Aligners in Anand',
+      title: 'Invisalign Clear Aligners in Ahmedabad',
       steps: [
-        'Recognized as a certified Gold Invisalign Provider, Dr. Gandhi Dental Clinic delivers advanced clear aligner treatments with precision, comfort, and proven results.',
+        'Dr. Vakharia Dental Clinic delivers advanced clear aligner treatments with precision, comfort, and proven results tailored to your unique dental needs.',
+        'Each aligner set is custom-designed using 3D digital imaging technology to gradually shift your teeth into the desired position with maximum comfort.',
+        'Regular progress monitoring ensures your treatment stays on track, with adjustments made as needed to achieve your perfect smile transformation.',
       ],
     },
     suitable: [],
@@ -106,17 +113,21 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Root Canal Treatments',
     subtitle: 'Pain-Free Care',
     overview:
-      'A root canal treatment (RCT) is a dental procedure used to save a tooth that is infected or badly decayed. Instead of extracting the tooth, our dentists carefully clean and seal the inside of the tooth to restore its function. At Dr. Gandhi Dental Clinic, we use digital X-rays, rotary instruments, and advanced anesthesia techniques to make the procedure comfortable and effective. Patients often compare it to getting a simple filling — fast, safe, and stress-free.',
+      'A root canal treatment (RCT) is a dental procedure used to save a tooth that is infected or badly decayed. Instead of extracting the tooth, our dentists carefully clean and seal the inside of the tooth to restore its function. At Dr. Vakharia Dental Clinic, we use digital X-rays, rotary instruments, and advanced anesthesia techniques to make the procedure comfortable and effective. Patients often compare it to getting a simple filling — fast, safe, and stress-free.',
     benefits: [
       'Relieves Pain & Infection',
       'Prevents Tooth Extraction',
       'Saves Your Natural Tooth',
       'Long-Lasting And Cost-Effective Solution',
+      'Preserves Your Natural Smile',
+      'Minimally Invasive Procedure',
     ],
     procedure: {
       title: 'About Root Canal Treatment',
       steps: [
-        'Our clinic is equipped with rotary endodontics, apex locators, and digital imaging to ensure accuracy and faster recovery. Sedation options are available for anxious patients, ensuring a stress-free experience.',
+        'Our clinic is equipped with rotary endodontics, apex locators, and digital imaging to ensure accuracy and faster recovery, providing a stress-free experience.',
+        'The infected pulp is carefully removed, and the tooth interior is thoroughly cleaned and disinfected to eliminate all bacteria and prevent reinfection.',
+        'After cleaning, the root canals are sealed with biocompatible materials, and a crown is placed to protect and strengthen the restored tooth for long-term durability.',
       ],
     },
     suitable: [],
@@ -148,18 +159,21 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Ceramic Crowns & Bridges',
     subtitle: 'Natural Restorations',
     overview:
-      'Ceramic crowns and bridges are fixed dental restorations that replace or cover damaged teeth and fill gaps left by missing teeth. Crowns are caps placed on weakened or treated teeth, while bridges are used to replace one or more missing teeth by anchoring to nearby teeth or implants. At Dr. Gandhi Dental Clinic, we use high-quality ceramic and zirconia materials to ensure your restorations look natural, last long, and blend seamlessly with your smile.',
+      'Ceramic crowns and bridges are fixed dental restorations that replace or cover damaged teeth and fill gaps left by missing teeth. Crowns are caps placed on weakened or treated teeth, while bridges are used to replace one or more missing teeth by anchoring to nearby teeth or implants. At Dr. Vakharia Dental Clinic, we use high-quality ceramic and zirconia materials to ensure your restorations look natural, last long, and blend seamlessly with your smile.',
     benefits: [
       'Restore Broken, Worn, Or Treated Teeth',
       'Natural, Tooth-Colored Appearance',
       'Replace Missing Teeth Permanently',
       'Improves Chewing And Speech',
       'Protects Treated Teeth After RCT',
+      'Durable & Stain-Resistant Materials',
     ],
     procedure: {
       title: 'About Ceramic Crowns & Bridges',
       steps: [
-        'We use digital scanners, CAD/CAM technology, and an in-house lab to design crowns and bridges with maximum precision. This eliminates messy impressions and reduces waiting time, making the entire process smooth and stress-free.',
+        'We use digital scanners and CAD/CAM technology to design crowns and bridges with maximum precision. This eliminates messy impressions and reduces waiting time, making the entire process smooth and stress-free.',
+        'The affected tooth is carefully prepared and shaped to accommodate the crown, ensuring a perfect fit that feels natural and comfortable in your mouth.',
+        'Custom-fabricated restorations are crafted to match the exact shade and shape of your natural teeth, providing seamless aesthetics and optimal functionality.',
       ],
     },
     suitable: [],
@@ -191,18 +205,21 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Wisdom Tooth Surgery',
     subtitle: 'Safe & Modern Extraction',
     overview:
-      'Wisdom teeth, or third molars, often erupt between ages 17-25 and can cause pain, infection, or crowding. If untreated, they may damage nearby teeth or gums. At Dr. Gandhi Dental Clinic, we perform safe and precise wisdom tooth extractions using digital imaging and advanced surgical techniques for faster healing and minimal discomfort.',
+      'Wisdom teeth, or third molars, often erupt between ages 17-25 and can cause pain, infection, or crowding. If untreated, they may damage nearby teeth or gums. At Dr. Vakharia Dental Clinic, we perform safe and precise wisdom tooth extractions using digital imaging and advanced surgical techniques for faster healing and minimal discomfort.',
     benefits: [
       'Painless Procedure With Local Anesthesia',
       'Digital X-Ray & 3D Imaging For Accuracy',
       'Faster Recovery With Advanced Techniques',
       'Prevents Infection & Damage To Nearby Teeth',
       'Expert Oral Surgeons For Safe Extractions',
+      'Comprehensive Post-Operative Care',
     ],
     procedure: {
       title: 'About Wisdom Tooth Surgery',
       steps: [
-        'With modern tools and sedation options, our patients experience stress-free extractions and quicker recovery. Post-surgery care ensures long-term oral health.',
+        'With modern tools and techniques, our patients experience stress-free extractions and quicker recovery. Post-surgery care ensures long-term oral health.',
+        'Before the procedure, we conduct a thorough examination using digital X-rays and 3D imaging to assess the position of the wisdom teeth and plan the safest extraction approach.',
+        'The extraction is performed with precision using specialized surgical instruments, and detailed aftercare instructions are provided to promote optimal healing and prevent complications.',
       ],
     },
     suitable: [],
@@ -215,7 +232,7 @@ export const treatmentsData: Record<string, TreatmentData> = {
       {
         question: 'Is Wisdom Tooth Surgery Painful?',
         answer:
-          'The procedure itself is painless as it\'s performed under local anesthesia with optional sedation. You may experience some swelling and discomfort for 3-5 days after surgery, which is easily managed with prescribed pain medication and ice packs.',
+          'The procedure itself is painless as it\'s performed under local anesthesia. You may experience some swelling and discomfort for 3-5 days after surgery, which is easily managed with prescribed pain medication and ice packs.',
       },
       {
         question: 'How Long Is The Recovery Period?',
@@ -234,19 +251,21 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Gum Surgeries',
     subtitle: 'Healthy Gums, Healthy Smile',
     overview:
-      'Treat bleeding gums, recession, and gum infection with advanced periodontal care at Dr. Gandhi Dental Clinic, Anand. Safe, precise, and comfortable treatment for lasting results.',
+      'Treat bleeding gums, recession, and gum infection with advanced periodontal care at Dr. Vakharia Dental Clinic, Ahmedabad. Safe, precise, and comfortable treatment for lasting results.',
     benefits: [
       'Stops Bleeding, Swelling, And Infection',
       'Treats Gum Recession And Sensitivity',
       'Comfortable Procedures With Quick Recovery',
       'Stabilizes Teeth And Preserves Bone',
       'Improves Breath And Oral Hygiene',
+      'Prevents Future Tooth Loss',
     ],
     procedure: {
       title: 'About Gum (Periodontal) Treatment',
       steps: [
         'Gum disease can lead to swollen, bleeding gums, bad breath, bone loss, and loose teeth. Our periodontal treatments range from deep cleaning (scaling & root planing) to flap surgery, bone grafting, and recession coverage—planned to restore gum health and protect your teeth.',
         'We use digital X-rays, ultrasonic scalers, and microsurgical techniques to minimize discomfort, speed healing, and preserve natural tissues wherever possible.',
+        'Comprehensive post-treatment care and regular follow-ups ensure your gums remain healthy, preventing disease recurrence and maintaining the long-term stability of your teeth.',
       ],
     },
     suitable: [],
@@ -278,7 +297,7 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Veneers & Smile Designing',
     subtitle: 'Transform Your Smile',
     overview:
-      'Porcelain veneers are thin shells custom-made to cover the front surface of teeth, creating a beautiful, natural-looking smile. Smile design combines multiple cosmetic procedures to achieve your dream smile. Veneers can correct chips, gaps, discoloration, and misalignment.',
+      'Porcelain veneers are thin shells custom-made to cover the front surface of teeth, creating a beautiful, natural-looking smile. At Dr. Vakharia Dental Clinic in Ahmedabad, smile design combines multiple cosmetic procedures to achieve your dream smile. Veneers can correct chips, gaps, discoloration, and misalignment.',
     benefits: [
       'Dramatic smile transformation',
       'Natural-looking results',
@@ -290,12 +309,9 @@ export const treatmentsData: Record<string, TreatmentData> = {
     procedure: {
       title: 'Veneer Process',
       steps: [
-        'Smile design consultation and preview',
-        'Digital mock-up of your new smile',
-        'Minimal tooth preparation',
-        'Precise impressions taken',
-        'Temporary veneers placed',
-        'Custom porcelain veneers bonded permanently',
+        'Smile design consultation and preview with digital mock-up of your new smile, allowing you to visualize the final results before treatment begins.',
+        'Minimal tooth preparation is performed to ensure the veneers fit perfectly while preserving maximum natural tooth structure.',
+        'Precise impressions are taken, temporary veneers are placed, and custom porcelain veneers are bonded permanently for a stunning transformation.',
       ],
     },
     suitable: [
@@ -328,7 +344,7 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Teeth Cleaning & Polishing',
     subtitle: 'Maintain Optimal Oral Health',
     overview:
-      'Professional teeth cleaning removes plaque, tartar, and stains that regular brushing can\'t eliminate. Regular cleanings are essential for preventing cavities, gum disease, and maintaining a bright smile. We recommend cleanings every six months for most patients.',
+      'Professional teeth cleaning removes plaque, tartar, and stains that regular brushing can\'t eliminate. At Dr. Vakharia Dental Clinic in Ahmedabad, regular cleanings are essential for preventing cavities, gum disease, and maintaining a bright smile. We recommend cleanings every six months for most patients.',
     benefits: [
       'Prevents cavities and gum disease',
       'Removes stubborn stains',
@@ -340,12 +356,9 @@ export const treatmentsData: Record<string, TreatmentData> = {
     procedure: {
       title: 'Cleaning Appointment',
       steps: [
-        'Comprehensive oral examination',
-        'Scaling to remove tartar and plaque',
-        'Deep cleaning between teeth',
-        'Polishing with specialized paste',
-        'Fluoride treatment application',
-        'Oral hygiene recommendations',
+        'Comprehensive oral examination is performed to assess your overall dental health and identify any potential issues requiring attention.',
+        'Scaling removes tartar and plaque buildup, followed by deep cleaning between teeth to eliminate bacteria from hard-to-reach areas.',
+        'Polishing with specialized paste brightens your teeth, fluoride treatment is applied for added protection, and personalized oral hygiene recommendations are provided.',
       ],
     },
     suitable: [
@@ -378,7 +391,7 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Dental Fillings',
     subtitle: 'Restore Damaged Teeth',
     overview:
-      'Dental fillings repair teeth damaged by decay, restoring their function and appearance. We use tooth-colored composite materials that blend naturally with your teeth. Modern fillings are durable, safe, and virtually invisible.',
+      'Dental fillings repair teeth damaged by decay, restoring their function and appearance. At Dr. Vakharia Dental Clinic in Ahmedabad, we use tooth-colored composite materials that blend naturally with your teeth. Modern fillings are durable, safe, and virtually invisible.',
     benefits: [
       'Natural tooth-colored appearance',
       'Stops decay progression',
@@ -390,12 +403,9 @@ export const treatmentsData: Record<string, TreatmentData> = {
     procedure: {
       title: 'Filling Procedure',
       steps: [
-        'Local anesthesia for comfort',
-        'Removal of decay',
-        'Cleaning and preparation of cavity',
-        'Composite resin application in layers',
-        'Curing with special light',
-        'Shaping and polishing',
+        'Local anesthesia is administered for your comfort, followed by careful removal of decay to prepare the tooth for restoration.',
+        'The cavity is thoroughly cleaned and prepared, then composite resin is applied in layers and cured with a special light for optimal bonding.',
+        'The filling is shaped and polished to match your natural tooth contours, ensuring a comfortable bite and seamless appearance.',
       ],
     },
     suitable: [
@@ -428,7 +438,7 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Dentures',
     subtitle: 'Replace Multiple Missing Teeth',
     overview:
-      'Dentures are removable appliances that replace missing teeth and restore your smile. We offer both complete dentures for patients missing all teeth and partial dentures for those with some remaining natural teeth. Modern dentures are comfortable, natural-looking, and improve quality of life.',
+      'Dentures are removable appliances that replace missing teeth and restore your smile. At Dr. Vakharia Dental Clinic in Ahmedabad, we offer both complete dentures for patients missing all teeth and partial dentures for those with some remaining natural teeth. Modern dentures are comfortable, natural-looking, and improve quality of life.',
     benefits: [
       'Restore eating and speaking ability',
       'Natural appearance',
@@ -440,12 +450,9 @@ export const treatmentsData: Record<string, TreatmentData> = {
     procedure: {
       title: 'Denture Process',
       steps: [
-        'Comprehensive oral examination',
-        'Impressions and measurements',
-        'Bite registration and shade selection',
-        'Try-in appointment for fit and appearance',
-        'Final denture fabrication',
-        'Delivery and adjustment appointments',
+        'Comprehensive oral examination is conducted, followed by precise impressions and measurements to ensure optimal fit and function.',
+        'Bite registration and shade selection are performed, and a try-in appointment allows you to preview the fit and appearance before final fabrication.',
+        'The final dentures are delivered with careful adjustments to ensure maximum comfort, and follow-up appointments address any fine-tuning needed.',
       ],
     },
     suitable: [
@@ -478,7 +485,7 @@ export const treatmentsData: Record<string, TreatmentData> = {
     title: 'Night Guard',
     subtitle: 'Protect Your Teeth from Grinding',
     overview:
-      'A custom night guard is a protective appliance worn during sleep to prevent damage from teeth grinding (bruxism) or clenching. Unlike store-bought guards, our custom-fitted guards are comfortable, durable, and provide optimal protection for your teeth and jaw.',
+      'A custom night guard is a protective appliance worn during sleep to prevent damage from teeth grinding (bruxism) or clenching. At Dr. Vakharia Dental Clinic in Ahmedabad, our custom-fitted guards are comfortable, durable, and provide optimal protection for your teeth and jaw.',
     benefits: [
       'Prevents tooth wear and damage',
       'Reduces jaw pain and headaches',
@@ -490,12 +497,9 @@ export const treatmentsData: Record<string, TreatmentData> = {
     procedure: {
       title: 'Night Guard Process',
       steps: [
-        'Evaluation of grinding or clenching habits',
-        'Precise impressions of your teeth',
-        'Custom guard fabrication',
-        'Fitting appointment and adjustments',
-        'Instructions for care and use',
-        'Follow-up to ensure comfort',
+        'A thorough evaluation of your grinding or clenching habits is performed, and precise impressions of your teeth are taken for custom fabrication.',
+        'Your custom guard is expertly fabricated to fit your mouth perfectly, ensuring maximum comfort and protection during sleep.',
+        'A fitting appointment includes adjustments for optimal comfort, detailed care instructions, and a follow-up to ensure complete satisfaction.',
       ],
     },
     suitable: [

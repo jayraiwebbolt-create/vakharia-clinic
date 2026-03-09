@@ -17,7 +17,7 @@ import {
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Treatments - DentalCare',
+  title: 'Treatments - Vakharia Multispeciality Dental Clinic',
   description: 'Explore our comprehensive range of dental treatments including implants, Invisalign, root canals, cosmetic dentistry, and more.',
 };
 
@@ -49,7 +49,7 @@ const treatments = [
   {
     icon: Scissors,
     title: 'Wisdom Tooth Surgery',
-    description: 'Safe, comfortable extraction of wisdom teeth using modern surgical techniques and sedation options.',
+    description: 'Safe, comfortable extraction of wisdom teeth using modern surgical techniques for faster recovery.',
     slug: 'wisdom-tooth-surgery',
   },
   {
