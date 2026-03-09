@@ -32,7 +32,7 @@ export default function Home() {
                 <span className="text-dental-teal">Premium Care</span>
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-                Experience exceptional dental care with state-of-the-art technology, expert professionals, and a compassionate approach to your oral health.
+                Experience exceptional dental care with specialized dental implant treatments, skilled professionals, and a compassionate approach to restoring your smile
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link href="/contact-us">
@@ -52,8 +52,8 @@ export default function Home() {
                   <div className="text-xs sm:text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center border-x border-gray-200">
-                  <div className="text-2xl sm:text-3xl font-bold text-dental-teal mb-1">80000+</div>
-                  <div className="text-xs sm:text-sm text-muted-foreground">Happy Patients</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-dental-teal mb-1">1 Lakh+</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Happy Clients</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl sm:text-3xl font-bold text-dental-teal mb-1">2</div>
@@ -175,12 +175,6 @@ export default function Home() {
               slug="dental-implants"
             />
             <TreatmentCard
-              icon={AlignVerticalSpaceAround}
-              title="Invisalign®"
-              description="Straighten your teeth discreetly with clear aligners."
-              slug="invisalign"
-            />
-            <TreatmentCard
               icon={Shield}
               title="Root Canal Treatments"
               description="Save infected teeth with painless, modern endodontic care."
@@ -203,6 +197,12 @@ export default function Home() {
               title="Wisdom Tooth Surgery"
               description="Safe and comfortable extraction procedures for wisdom teeth."
               slug="wisdom-tooth-surgery"
+            />
+            <TreatmentCard
+              icon={AlignVerticalSpaceAround}
+              title="Invisalign®"
+              description="Straighten your teeth discreetly with clear aligners."
+              slug="invisalign"
             />
           </div>
 

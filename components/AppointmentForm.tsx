@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Calendar, Clock } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 export default function AppointmentForm() {
   const [formData, setFormData] = useState({
@@ -14,7 +14,6 @@ export default function AppointmentForm() {
     email: '',
     phone: '',
     date: '',
-    time: '',
     message: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -23,7 +22,7 @@ export default function AppointmentForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const whatsappMessage = `Hi, I would like to book an appointment.%0A%0AName: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0APreferred Date: ${formData.date}%0APreferred Time: ${formData.time}%0AMessage: ${formData.message || 'None'}`;
+    const whatsappMessage = `Hi, I would like to book an appointment.%0A%0AName: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0APreferred Date: ${formData.date}%0AMessage: ${formData.message || 'None'}`;
 
     window.open(`https://wa.me/916352104371?text=${whatsappMessage}`, '_blank');
 
@@ -32,7 +31,6 @@ export default function AppointmentForm() {
       email: '',
       phone: '',
       date: '',
-      time: '',
       message: '',
     });
 
@@ -94,37 +92,19 @@ export default function AppointmentForm() {
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <Label htmlFor="date">Preferred Date *</Label>
-              <div className="relative mt-1">
-                <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
-                <Input
-                  id="date"
-                  name="date"
-                  type="date"
-                  value={formData.date}
-                  onChange={handleChange}
-                  required
-                  className="pl-10"
-                />
-              </div>
-            </div>
-
-            <div>
-              <Label htmlFor="time">Preferred Time *</Label>
-              <div className="relative mt-1">
-                <Clock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
-                <Input
-                  id="time"
-                  name="time"
-                  type="time"
-                  value={formData.time}
-                  onChange={handleChange}
-                  required
-                  className="pl-10"
-                />
-              </div>
+          <div>
+            <Label htmlFor="date">Preferred Date *</Label>
+            <div className="relative mt-1">
+              <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
+              <Input
+                id="date"
+                name="date"
+                type="date"
+                value={formData.date}
+                onChange={handleChange}
+                required
+                className="pl-10"
+              />
             </div>
           </div>
 
