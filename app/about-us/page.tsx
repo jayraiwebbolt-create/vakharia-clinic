@@ -40,7 +40,7 @@ export default function AboutUs() {
                 Our Legacy
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                The clinic was originally established by Dr. Deepak Vakharia, whose vision was to provide honest dental care focused on patient well-being rather than unnecessary treatments. Under his guidance, the clinic earned the trust of generations of families.
+                The clinic was originally established by Dr. Deepak Vakharia and has built a strong reputation for providing quality dental care to generations of families.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Today, the practice is led by Dr. Deepak M. Vakharia, Dental Surgeon, and Dr. Palak D. Vakharia, Dental Surgeon (Graduate – 2002), supported by a team of multispecialist dental experts. We offer comprehensive dental treatments under one roof.
@@ -107,7 +107,7 @@ export default function AboutUs() {
                   <Users className="w-8 h-8 text-dental-teal" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Clinic 2</h3>
-                <p className="text-muted-foreground">Serving Paldi for 25+ years</p>
+                <p className="text-muted-foreground">Established in Paldi</p>
               </CardContent>
             </Card>
 
