@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="mb-4">
-              <div className="h-24 w-80">
+              <div className="h-16 w-48 sm:w-56 md:w-64">
                 <img
                   src="/3.png"
                   alt="Vakharia Multispeciality Dental Clinic"
-                  className="h-full w-full object-cover brightness-0 invert scale-150 origin-left"
+                  className="h-full w-full object-cover brightness-0 invert"
                 />
               </div>
             </div>
