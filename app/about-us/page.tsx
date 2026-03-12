@@ -73,6 +73,91 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Our Specialty
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Comprehensive multispecialty dental care with expert specialists across all disciplines.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <Card className="border-none shadow-lg bg-white hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">General Dentist</h3>
+                <p className="text-sm text-muted-foreground">B.D.S.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Periodontist</h3>
+                <p className="text-sm text-muted-foreground">M.D.S.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Oral Surgeon</h3>
+                <p className="text-sm text-muted-foreground">M.D.S.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Target className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Implantologist</h3>
+                <p className="text-sm text-muted-foreground">M.D.S.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Sparkles className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Prosthodontist</h3>
+                <p className="text-sm text-muted-foreground">M.D.S.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Pedodontist</h3>
+                <p className="text-sm text-muted-foreground">M.D.S.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle2 className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Orthodontist</h3>
+                <p className="text-sm text-muted-foreground">M.D.S.</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Our Journey
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
