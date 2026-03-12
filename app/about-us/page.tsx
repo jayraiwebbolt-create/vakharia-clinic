@@ -240,7 +240,7 @@ export default function AboutUs() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="border-none shadow-lg bg-white">
               <CardContent className="p-8 text-center">
                 <div className="w-24 h-24 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
@@ -263,6 +263,23 @@ export default function AboutUs() {
                 <p className="text-dental-teal font-medium mb-4">Dental Surgeon (Graduate – 2002)</p>
                 <p className="text-muted-foreground leading-relaxed">
                   Bringing modern expertise and compassionate care to continue our family legacy.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8 text-center">
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-dental-blue-light">
+                  <img
+                    src="/WhatsApp_Image_2026-03-12_at_11.34.43_AM_(1).jpeg"
+                    alt="Dr. Jaldhi Sanghvi"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-2xl font-semibold mb-2">Dr. Jaldhi Sanghvi</h3>
+                <p className="text-dental-teal font-medium mb-4">General Dentist Surgeon</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Dedicated to providing comprehensive general dental care with a gentle, patient-centered approach.
                 </p>
               </CardContent>
             </Card>
