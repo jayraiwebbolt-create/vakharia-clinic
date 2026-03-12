@@ -240,7 +240,7 @@ export default function AboutUs() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-none shadow-lg bg-white">
               <CardContent className="p-8 text-center">
                 <div className="w-24 h-24 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
@@ -280,6 +280,40 @@ export default function AboutUs() {
                 <p className="text-dental-teal font-medium mb-4">General Dentist Surgeon</p>
                 <p className="text-muted-foreground leading-relaxed">
                   Dedicated to providing comprehensive general dental care with a gentle, patient-centered approach.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8 text-center">
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-dental-blue-light">
+                  <img
+                    src="/Dr_Aarushi_Rastogi.jpeg"
+                    alt="Dr. Aarushi Rastogi"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-2xl font-semibold mb-2">Dr. Aarushi Rastogi</h3>
+                <p className="text-dental-teal font-medium mb-4">Dental Specialist</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Committed to delivering exceptional dental care with precision and compassion.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg bg-white">
+              <CardContent className="p-8 text-center">
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-dental-blue-light">
+                  <img
+                    src="/Dr_Nihita_Vaja.jpeg"
+                    alt="Dr. Nihita Vaja"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-2xl font-semibold mb-2">Dr. Nihita Vaja</h3>
+                <p className="text-dental-teal font-medium mb-4">Dental Specialist</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Providing expert dental care with a focus on patient comfort and satisfaction.
                 </p>
               </CardContent>
             </Card>
