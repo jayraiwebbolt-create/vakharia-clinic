@@ -13,12 +13,6 @@ import {
   UsersRound,
   Moon,
 } from '@/components/icons';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Treatments - Vakharia Multispeciality Dental Clinic',
-  description: 'Explore our comprehensive range of dental treatments including implants, Invisalign, root canals, cosmetic dentistry, and more.',
-};
 
 const treatments = [
   {

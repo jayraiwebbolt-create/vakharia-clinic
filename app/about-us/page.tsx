@@ -1,12 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import CTASection from '@/components/CTASection';
 import { Award, Heart, Users, Target, CheckCircle2, Shield, Sparkles } from '@/components/icons';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'About Us - Vakharia Multispeciality Dental Clinic',
-  description: 'With 55+ years of legacy in Ahmedabad, Vakharia Multispeciality Dental Clinic provides ethical, affordable, and excellent dental care built on trust and clinical excellence.',
-};
 
 export default function AboutUs() {
   return (

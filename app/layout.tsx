@@ -1,16 +1,15 @@
 import './globals.css';
+import { Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">{children}</main>
+      <main className="pt-20">
+        <Outlet />
+      </main>
       <Footer />
     </>
   );

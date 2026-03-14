@@ -1,12 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import AppointmentForm from '@/components/AppointmentForm';
 import { MapPin, Phone, Building2 } from '@/components/icons';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Contact Us - Vakharia Multispeciality Dental Clinic',
-  description: 'Visit us at our Maninagar or Paldi clinics in Ahmedabad. Schedule an appointment and experience over 55 years of trusted dental care.',
-};
 
 export default function ContactUs() {
   return (

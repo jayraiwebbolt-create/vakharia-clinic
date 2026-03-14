@@ -1,32 +1,15 @@
 import React from 'react';
+import { Link as RouterLink, useLocation } from 'react-router-dom';
 
-export function Link({ href, children, className, ...props }: any) {
-  const handleClick = (e: React.MouseEvent) => {
-    if (href.startsWith('/') && !href.startsWith('//')) {
-      e.preventDefault();
-      window.history.pushState({}, '', href);
-      window.dispatchEvent(new PopStateEvent('popstate'));
-    }
-  };
-
+export function Link({ href, children, className, ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement> & { href: string }) {
   return (
-    <a href={href} className={className} onClick={handleClick} {...props}>
+    <RouterLink to={href} className={className} {...props}>
       {children}
-    </a>
+    </RouterLink>
   );
 }
 
 export function usePathname() {
-  const [pathname, setPathname] = React.useState(window.location.pathname);
-
-  React.useEffect(() => {
-    const handlePopState = () => {
-      setPathname(window.location.pathname);
-    };
-
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, []);
-
+  const { pathname } = useLocation();
   return pathname;
 }

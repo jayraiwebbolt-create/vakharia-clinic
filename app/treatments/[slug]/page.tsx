@@ -1,37 +1,16 @@
-import { notFound } from 'next/navigation';
+import { useParams, Navigate } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import CTASection from '@/components/CTASection';
 import { CheckCircle2 } from '@/components/icons';
 import { treatmentsData } from '@/lib/treatmentData';
-import type { Metadata } from 'next';
 
-export async function generateStaticParams() {
-  return Object.keys(treatmentsData).map((slug) => ({
-    slug,
-  }));
-}
-
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const treatment = treatmentsData[params.slug];
+export default function TreatmentDetail() {
+  const { slug } = useParams<{ slug: string }>();
+  const treatment = slug ? treatmentsData[slug] : undefined;
 
   if (!treatment) {
-    return {
-      title: 'Treatment Not Found',
-    };
-  }
-
-  return {
-    title: `${treatment.title} - DentalCare`,
-    description: treatment.overview.substring(0, 155),
-  };
-}
-
-export default function TreatmentDetail({ params }: { params: { slug: string } }) {
-  const treatment = treatmentsData[params.slug];
-
-  if (!treatment) {
-    notFound();
+    return <Navigate to="/treatments" replace />;
   }
 
   return (
