@@ -1,6 +1,4 @@
-'use client';
-
-import Link from 'next/link';
+import { Link } from '@/lib/next-compat';
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
