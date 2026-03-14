@@ -1,4 +1,4 @@
-import { Link } from '@/lib/next-compat';
+import { Link } from '@/lib/next-compat.tsx';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import AppointmentForm from '@/components/AppointmentForm';
