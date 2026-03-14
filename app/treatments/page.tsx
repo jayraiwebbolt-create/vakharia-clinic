@@ -8,7 +8,6 @@ import {
   Scissors,
   Activity,
   Smile,
-  Sparkles,
   Brush,
   FileText,
   UsersRound,
