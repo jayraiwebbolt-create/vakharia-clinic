@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import { Card, CardContent } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import CTASection from '@/components/CTASection';
-import { CircleCheck as CheckCircle2 } from 'lucide-react';
+import { CheckCircle2 } from '@/components/icons';
 import { treatmentsData } from '@/lib/treatmentData';
 import type { Metadata } from 'next';
 

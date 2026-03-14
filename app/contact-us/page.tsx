@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import AppointmentForm from '@/components/AppointmentForm';
-import { MapPin, Phone, Building2 } from 'lucide-react';
+import { MapPin, Phone, Building2 } from '@/components/icons';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

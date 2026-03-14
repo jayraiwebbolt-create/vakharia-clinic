@@ -12,7 +12,7 @@ import {
   FileText,
   UsersRound,
   Moon,
-} from 'lucide-react';
+} from '@/components/icons';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

@@ -1,6 +1,6 @@
 import { Link } from '@/lib/next-compat';
 import { Button } from '@/components/ui/button';
-import { Phone } from 'lucide-react';
+import { Phone } from '@/components/icons';
 
 interface CTASectionProps {
   title: string;

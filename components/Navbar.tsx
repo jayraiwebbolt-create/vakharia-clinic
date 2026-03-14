@@ -1,6 +1,6 @@
 import { Link } from '@/lib/next-compat';
 import { useState, useEffect } from 'react';
-import { Menu, X, Phone, ChevronDown } from 'lucide-react';
+import { Menu, X, Phone, ChevronDown } from '@/components/icons';
 import { Button } from '@/components/ui/button';
 
 const treatments = [

@@ -1,8 +1,8 @@
-import type { LucideIcon } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import React from 'react';
 
 interface ServiceCardProps {
-  icon: LucideIcon;
+  icon: React.FC<{ className?: string }>;
   title: string;
   description: string;
 }

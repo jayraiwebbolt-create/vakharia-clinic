@@ -18,7 +18,7 @@ import {
   AlignVerticalSpaceAround,
   Star,
   Quote,
-} from 'lucide-react';
+} from '@/components/icons';
 
 export default function Home() {
   return (

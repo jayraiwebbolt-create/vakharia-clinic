@@ -1,5 +1,5 @@
 import { Link } from '@/lib/next-compat';
-import { MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { MapPin, Facebook, Instagram, Twitter } from '@/components/icons';
 
 export default function Footer() {
   return (

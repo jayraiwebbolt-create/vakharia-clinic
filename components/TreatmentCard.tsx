@@ -1,11 +1,11 @@
 import { Link } from '@/lib/next-compat';
-import type { LucideIcon } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from '@/components/icons';
+import React from 'react';
 
 interface TreatmentCardProps {
-  icon: LucideIcon;
+  icon: React.FC<{ className?: string }>;
   title: string;
   description: string;
   slug: string;
