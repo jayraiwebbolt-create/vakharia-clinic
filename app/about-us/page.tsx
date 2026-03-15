@@ -250,8 +250,12 @@ export default function AboutUs() {
 
             <Card className="border-none shadow-lg bg-white">
               <CardContent className="p-8 text-center">
-                <div className="w-24 h-24 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-12 h-12 text-dental-teal" />
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-dental-blue-light">
+                  <img
+                    src="/Dr_Palak_Vakharia.png"
+                    alt="Dr. Palak D. Vakharia"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-2xl font-semibold mb-2">Dr. Palak D. Vakharia</h3>
                 <p className="text-dental-teal font-medium mb-4">Dental Surgeon (Graduate – 2002)</p>
