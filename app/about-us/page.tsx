@@ -247,8 +247,12 @@ export default function AboutUs() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-none shadow-lg bg-white">
               <CardContent className="p-8 text-center">
-                <div className="w-24 h-24 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-12 h-12 text-dental-teal" />
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-dental-blue-light">
+                  <img
+                    src="/Dr_Deepak_Vakharia.png"
+                    alt="Dr. Deepak M. Vakharia"
+                    className="w-full h-full object-cover object-[55%_35%]"
+                  />
                 </div>
                 <h3 className="text-2xl font-semibold mb-2">Dr. Deepak M. Vakharia</h3>
                 <p className="text-dental-teal font-medium mb-4">Dental Surgeon</p>
