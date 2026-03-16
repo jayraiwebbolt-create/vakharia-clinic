@@ -262,6 +262,51 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-20 bg-dental-gray-light">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Our Clinic Gallery
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              A glimpse into our modern facilities and the care we provide at Vakharia Dental.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4 md:gap-5">
+            {[
+              'IMG_3535',
+              'IMG_3537',
+              'IMG_3540',
+              'IMG_3543',
+              'IMG_3544',
+              'IMG_3546',
+              'IMG_3548',
+              'IMG_3550',
+              'IMG_3561',
+              'IMG_3570',
+              'IMG_3571',
+              'IMG_3578',
+              'IMG_3610',
+              'IMG_3645',
+              'IMG_3651',
+            ].map((name) => (
+              <div
+                key={name}
+                className="group relative aspect-square overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md transition-all duration-300 hover:shadow-xl hover:border-dental-teal/40"
+              >
+                <img
+                  src={`/news/${name}.jpg`}
+                  alt={`Vakharia Dental Clinic - ${name}`}
+                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">

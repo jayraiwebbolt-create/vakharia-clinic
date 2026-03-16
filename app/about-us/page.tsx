@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import CTASection from '@/components/CTASection';
-import { Award, Heart, Users, Target, CheckCircle2, Shield, Sparkles } from '@/components/icons';
+import { Award, Heart, Users, Target, CheckCircle2, Shield, Sparkles, Activity } from '@/components/icons';
 
 export default function AboutUs() {
   return (
@@ -144,6 +144,16 @@ export default function AboutUs() {
                 <p className="text-sm text-muted-foreground">M.D.S.</p>
               </CardContent>
             </Card>
+
+            <Card className="border-none shadow-lg bg-white hover:shadow-xl transition-shadow">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Activity className="w-8 h-8 text-dental-teal" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Endodontist</h3>
+                <p className="text-sm text-muted-foreground">M.D.S.</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -252,7 +262,7 @@ export default function AboutUs() {
               <CardContent className="p-8 text-center">
                 <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-dental-blue-light">
                   <img
-                    src="/Dr_Palak_Vakharia.png"
+                    src="/Dr_Palak_Vakharia.jpg"
                     alt="Dr. Palak D. Vakharia"
                     className="w-full h-full object-cover"
                   />
